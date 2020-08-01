@@ -112,10 +112,10 @@
     </EnvObject>
     <EnvObject t0="-2.99999" t1="1.25" t2="2" s0="1.5645" s1="1.5645" s2="1.5645" q0="0" q1="-0.747275" q2="0" q3="0.664514" euler_x="3.14159" euler_y="-1.45369" euler_z="3.14159" id="11" color_r="1" color_g="1" color_b="1" overbright="15.05" type_file="Data/Objects/therium/rabbit_statue/rabbit_statue_1.xml">
         <parameters>
-            <parameter name="Default Rotation W" type="float" val="0.664514" />
-            <parameter name="Default Rotation X" type="float" val="0" />
-            <parameter name="Default Rotation Y" type="float" val="-0.747275" />
-            <parameter name="Default Rotation Z" type="float" val="0" />
+            <parameter name="Default rotation W" type="float" val="0.664514" />
+            <parameter name="Default rotation X" type="float" val="0" />
+            <parameter name="Default rotation Y" type="float" val="-0.747275" />
+            <parameter name="Default rotation Z" type="float" val="0" />
             <parameter name="Name" type="string" val="Guard Statue" />
         </parameters>
     </EnvObject>
@@ -184,10 +184,10 @@
     </Group>
     <EnvObject t0="-2.99999" t1="1.25" t2="-1.5" s0="1.5645" s1="1.5645" s2="1.5645" q0="0" q1="-0.675317" q2="0" q3="0.737527" euler_x="0" euler_y="-1.48279" euler_z="0" id="33" color_r="1" color_g="1" color_b="1" overbright="15.174" type_file="Data/Objects/therium/rabbit_statue/rabbit_statue_1.xml">
         <parameters>
-            <parameter name="Default Rotation W" type="float" val="0.737527" />
-            <parameter name="Default Rotation X" type="float" val="0" />
-            <parameter name="Default Rotation Y" type="float" val="-0.675317" />
-            <parameter name="Default Rotation Z" type="float" val="0" />
+            <parameter name="Default rotation W" type="float" val="0.737527" />
+            <parameter name="Default rotation X" type="float" val="0" />
+            <parameter name="Default rotation Y" type="float" val="-0.675317" />
+            <parameter name="Default rotation Z" type="float" val="0" />
             <parameter name="Name" type="string" val="Guard Statue" />
         </parameters>
     </EnvObject>

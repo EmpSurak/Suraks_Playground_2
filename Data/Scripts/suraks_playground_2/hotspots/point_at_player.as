@@ -9,7 +9,7 @@ const string _target_name_key = "Name";
 const string _default_name = "Unknown";
 const string _rotation_offset_key = "Rotation offset";
 const float _default_rotation_offset = 90.0f;
-const string _default_rotation_key = "Default Rotation";
+const string _default_rotation_key = "Default rotation";
 const string _no_reset_key = "Do not reset";
 
 string search_for_name;
@@ -50,7 +50,7 @@ void Update(){
     for(uint i = 0; i < colliding_chars.size(); i++){
         if(ReadObjectFromID(colliding_chars[i]).GetType() == _movement_object){
             MovementObject@ mo = ReadCharacterID(colliding_chars[i]);
-            RotateObjectRelativeToPlayer(mo);
+            RotateObjectsRelativeToPlayer(mo);
         }
     }
     
@@ -86,7 +86,7 @@ void ResetObjectsRotation() {
     }
 }
 
-void RotateObjectRelativeToPlayer(MovementObject @mo) {
+void RotateObjectsRelativeToPlayer(MovementObject @mo) {
     array<Object@> objects = GetObjects();
     for(uint i=0; i < objects.length(); ++i){
         Object @obj = objects[i];
