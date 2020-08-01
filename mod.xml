@@ -1,0 +1,31 @@
+<? xml version="1.0" ?>
+<Mod>
+    <Id>com-surak-playground2</Id> 
+    <Name>Suraks Playground 2</Name> 
+
+    <Category>Level</Category>
+
+    <Thumbnail>Data/Images/suraks_playground_2/thumb.jpg</Thumbnail>
+    <PreviewImage>Data/Images/suraks_playground_2/thumb.jpg</PreviewImage>
+
+    <Description>Suraks 2nd test level.</Description>
+    <Version>0.1.0</Version>
+    <Author>Surak</Author>
+    
+	<Tag>Script</Tag>
+	<Tag>Level</Tag>
+
+	<SupportedVersion>*</SupportedVersion>
+    <NeedsRestart>false</NeedsRestart>
+	
+    <ModDependency>
+       <Id>com-surak-object-locator</Id>
+       <Version>0.1.0</Version> 
+    </ModDependency>
+	<ModDependency>
+       <Id>com-surak-timed-execution</Id>
+       <Version>0.4.0</Version> 
+    </ModDependency>
+	
+	<Level title="Suraks Playground 2" thumbnail="UI/mainmenu/images/suraks_playground_2.png">suraks_playground_2.xml</Level>
+</Mod>

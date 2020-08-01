@@ -1,0 +1,254 @@
+<?xml version="2.0" ?>
+<Type>saved</Type>
+<Name>suraks_playground_2</Name>
+<Description></Description>
+<Shader>post</Shader>
+<Shadows>true</Shadows>
+<LoadingScreen>
+    <Image></Image>
+</LoadingScreen>
+<Terrain>
+    <Heightmap>Data/Terrain/jims_playground_h2.tga</Heightmap>
+    <ShaderExtra></ShaderExtra>
+    <DetailMap></DetailMap>
+    <ColorMap>Data/Terrain/jims_playground_c.tga</ColorMap>
+    <WeightMap>Data/Terrain/jims_playground_h.tga</WeightMap>
+    <ModelOverride>Data/Terrain/jims_playground.obj</ModelOverride>
+    <DetailMaps>
+        <DetailMap colorpath="Data/Textures/jims_grid_c.tga" normalpath="Data/Textures/jims_grid_n.tga" materialpath="Data/Materials/rock.xml" />
+        <DetailMap colorpath="Data/Textures/jims_grid_c.tga" normalpath="Data/Textures/jims_grid_n.tga" materialpath="Data/Materials/rock.xml" />
+        <DetailMap colorpath="Data/Textures/jims_grid_c.tga" normalpath="Data/Textures/jims_grid_n.tga" materialpath="Data/Materials/rock.xml" />
+        <DetailMap colorpath="Data/Textures/jims_grid_c.tga" normalpath="Data/Textures/jims_grid_n.tga" materialpath="Data/Materials/rock.xml" />
+    </DetailMaps>
+    <DetailObjects />
+</Terrain>
+<OutOfDate NavMesh="true" NavMeshParamHash="-1674835251" />
+<AmbientSounds />
+<Script></Script>
+<LevelScriptParameters>
+    <parameter name="Achievements" type="string" val="flawless, no_injuries, no_kills" />
+    <parameter name="HDR Black point" type="float" val="0.005" />
+    <parameter name="HDR Bloom multiplier" type="float" val="1" />
+    <parameter name="HDR White point" type="float" val="0.7" />
+    <parameter name="Level Boundaries" type="int" val="0" />
+    <parameter name="Objectives" type="string" val="destroy_all" />
+    <parameter name="Saturation" type="float" val="1" />
+</LevelScriptParameters>
+<NavMeshParameters generate="true" cell_size="0.3" cell_height="0.2" agent_height="1.7" agent_radius="0.4" agent_max_climb="1.5" agent_max_slope="60" />
+<Sky>
+    <DomeTexture>Data/Textures/skies/blue4.tga</DomeTexture>
+    <SunAngularRad>0.161359</SunAngularRad>
+    <SunColorAngle>299.4</SunColorAngle>
+    <RayToSun r0="0.364252" r1="0.761459" r2="-0.536192" />
+</Sky>
+<ActorObjects>
+    <EnvObject t0="-6.07421" t1="3.8147e-006" t2="-53.5449" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="2" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/ball.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-23.867" t1="-3.8147e-006" t2="-53.59" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="3" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/box.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-41.4122" t1="0" t2="-53.3551" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="4" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/cylinder.xml">
+        <parameters />
+    </EnvObject>
+    <ActorObject t0="-20" t1="1.00001" t2="0" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="5" type_file="Data/Objects/characters/rabbot_actor.xml" is_player="1">
+        <parameters>
+            <parameter name="Aggression" type="float" val="0.5" />
+            <parameter name="Attack Damage" type="float" val="1" />
+            <parameter name="Attack Knockback" type="float" val="1" />
+            <parameter name="Attack Speed" type="float" val="1" />
+            <parameter name="Block Follow-up" type="float" val="0.5" />
+            <parameter name="Block Skill" type="float" val="0.5" />
+            <parameter name="Cannot Be Disarmed" type="int" val="0" />
+            <parameter name="Character Scale" type="float" val="1" />
+            <parameter name="Damage Resistance" type="float" val="1" />
+            <parameter name="Ear Size" type="float" val="1" />
+            <parameter name="Fall Damage Multiplier" type="float" val="1" />
+            <parameter name="Fat" type="float" val="0.5" />
+            <parameter name="Fear - Afraid At Health Level" type="float" val="0" />
+            <parameter name="Fear - Always Afraid On Sight" type="int" val="0" />
+            <parameter name="Fear - Causes Fear On Sight" type="int" val="0" />
+            <parameter name="Fear - Never Afraid On Sight" type="int" val="0" />
+            <parameter name="Focus FOV distance" type="float" val="100" />
+            <parameter name="Focus FOV horizontal" type="float" val="0.62834" />
+            <parameter name="Focus FOV vertical" type="float" val="0.62834" />
+            <parameter name="Ground Aggression" type="float" val="0.5" />
+            <parameter name="Knockout Shield" type="int" val="0" />
+            <parameter name="Left handed" type="int" val="0" />
+            <parameter name="Movement Speed" type="float" val="1" />
+            <parameter name="Muscle" type="float" val="0.5" />
+            <parameter name="No Look Around" type="int" val="0" />
+            <parameter name="Peripheral FOV distance" type="float" val="4" />
+            <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
+            <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
+            <parameter name="Species" type="string" val="player" />
+            <parameter name="Static" type="int" val="0" />
+            <parameter name="Stick To Nav Mesh" type="int" val="0" />
+            <parameter name="Teams" type="string" val="player" />
+            <parameter name="Throw Counter Probability" type="float" val="0.4" />
+            <parameter name="Throw Trainer" type="int" val="0" />
+            <parameter name="Weapon Catch Skill" type="float" val="1" />
+            <parameter name="Wearing Metal Armor" type="int" val="0" />
+        </parameters>
+        <Connections>
+            <Connection id="5" />
+        </Connections>
+        <ItemConnections />
+        <Palette />
+    </ActorObject>
+    <Hotspot t0="-4.99999" t1="1.99971" t2="5.00032" s0="10.0001" s1="1.00001" s2="10.0001" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="8" type_file="Data/Objects/Hotspots/suraks_playground_2/point_at_player.xml">
+        <parameters>
+            <parameter name="Object name to rotate" type="string" val="Guard Statue" />
+            <parameter name="Rotation offset" type="float" val="180" />
+        </parameters>
+        <Connections />
+        <ConnectionsFrom />
+    </Hotspot>
+    <EnvObject t0="-11.7068" t1="0" t2="-71.0358" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="9" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/halfpipe.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-33.2505" t1="-3.8147e-006" t2="-70.8159" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="10" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/wave.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-2.99999" t1="1.25" t2="2" s0="1.5645" s1="1.5645" s2="1.5645" q0="0" q1="-0.747275" q2="0" q3="0.664514" euler_x="3.14159" euler_y="-1.45369" euler_z="3.14159" id="11" color_r="1" color_g="1" color_b="1" overbright="15.05" type_file="Data/Objects/therium/rabbit_statue/rabbit_statue_1.xml">
+        <parameters>
+            <parameter name="Default Rotation W" type="float" val="0.664514" />
+            <parameter name="Default Rotation X" type="float" val="0" />
+            <parameter name="Default Rotation Y" type="float" val="-0.747275" />
+            <parameter name="Default Rotation Z" type="float" val="0" />
+            <parameter name="Name" type="string" val="Guard Statue" />
+        </parameters>
+    </EnvObject>
+    <Group t0="-2.86102e-006" t1="0.75" t2="0" s0="7.52305" s1="8.99505" s2="8.67361" q0="0" q1="0.724417" q2="0" q3="0.689361" euler_x="3.14159" euler_y="1.52118" euler_z="3.14159" id="12" version="1">
+        <parameters />
+        <EnvObject t0="-2.78732" t1="1.2333" t2="0.263794" s0="1.01956" s1="1.01956" s2="1.01956" q0="0" q1="0.689361" q2="0" q3="-0.724417" euler_x="0" euler_y="-1.52118" euler_z="0" id="13" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Buildings/stairs1.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-3.73824" t1="0.3759" t2="0.328796" s0="1.01956" s1="1.01956" s2="1.01956" q0="0" q1="0.689361" q2="0" q3="-0.724417" euler_x="0" euler_y="-1.52118" euler_z="0" id="14" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Buildings/stairs1.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="0.627457" t1="-0.990597" t2="-0.0307999" s0="1.01956" s1="0.362525" s2="1.01956" q0="0" q1="0.724417" q2="0" q3="0.689361" euler_x="3.14159" euler_y="1.52118" euler_z="3.14159" id="15" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Buildings/cat_town/babylon_tower.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-3.07452" t1="0.1977" t2="0.243194" s0="0.33888" s1="0.379195" s2="0.286584" q0="0.301" q1="0.651714" q2="-0.316307" q3="0.620175" euler_x="-2.23788" euler_y="1.5212" euler_z="3.14158" id="16" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="0.618277" t1="3.3804" t2="0.075096" s0="1.01956" s1="1.01956" s2="1.01956" q0="0" q1="0.724417" q2="0" q3="0.689361" euler_x="3.14159" euler_y="1.52118" euler_z="3.14159" id="17" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/therium/spiritlantern.xml">
+            <parameters />
+        </EnvObject>
+        <Group t0="0.666197" t1="3.0653" t2="-3.1079" s0="1.16181" s1="3.14406" s2="0.62564" q0="0" q1="0.724417" q2="0" q3="0.689361" euler_x="3.14159" euler_y="1.52118" euler_z="3.14159" id="18" version="1">
+            <parameters />
+            <EnvObject t0="0.648987" t1="2.2779" t2="-3.08611" s0="0.0910002" s1="0.265055" s2="0.142339" q0="-0.187493" q1="0.699733" q2="-0.17842" q3="0.665871" euler_x="-1.66971" euler_y="1.04507" euler_z="-1.65643" id="19" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="0.643147" t1="3.0614" t2="-3.374" s0="0.0909993" s1="0.0922002" s2="0.13659" q0="0.140522" q1="0.710657" q2="0.133721" q3="0.676267" euler_x="1.70044" euler_y="1.17738" euler_z="1.69064" id="20" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="0.650747" t1="3.4346" t2="-3.40511" s0="0.0909994" s1="0.0922002" s2="0.153863" q0="0.708988" q1="0.148717" q2="0.674677" q3="0.141521" euler_x="1.69366" euler_y="-1.15447" euler_z="1.45832" id="21" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="0.653417" t1="4.034" t2="-3.1698" s0="0.0827634" s1="0.206877" s2="0.145578" q0="0.688359" q1="-0.225701" q2="0.655048" q3="-0.214778" euler_x="-1.6544" euler_y="-0.935448" euler_z="-1.50344" id="22" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+                <parameters />
+            </EnvObject>
+        </Group>
+        <Group t0="3.12336" t1="2.9114" t2="-0.241806" s0="0.625648" s1="3.14407" s2="1.16132" q0="0" q1="0.724417" q2="0" q3="0.689361" euler_x="3.14159" euler_y="1.52118" euler_z="3.14159" id="23" version="1">
+            <parameters />
+            <EnvObject t0="3.10208" t1="2.1241" t2="-0.259003" s0="0.0910002" s1="0.265055" s2="0.142339" q0="-0.00641561" q1="0.0239443" q2="-0.258739" q3="0.965627" euler_x="-0.0248062" euler_y="0.0429358" euler_z="-0.524129" id="24" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="3.39084" t1="2.9075" t2="-0.265106" s0="0.0909994" s1="0.0922002" s2="0.13659" q0="0.00480905" q1="0.0243191" q2="0.193918" q3="0.980703" euler_x="0.0188853" euler_y="0.0458506" euler_z="0.390863" id="25" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="3.42086" t1="3.2808" t2="-0.257103" s0="0.0909994" s1="0.0922002" s2="0.153863" q0="0.0242615" q1="0.00508836" q2="0.978399" q3="0.205229" euler_x="0.0199371" euler_y="-0.0454019" euler_z="2.72761" id="26" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="3.18522" t1="3.88021" t2="-0.254906" s0="0.0827634" s1="0.206877" s2="0.145578" q0="0.0235546" q1="-0.00772363" q2="0.949932" q3="-0.311465" euler_x="-0.0293744" euler_y="-0.0399499" euler_z="-2.50733" id="27" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+                <parameters />
+            </EnvObject>
+        </Group>
+        <Group t0="0.689977" t1="3.0645" t2="2.84489" s0="1.16171" s1="3.14417" s2="0.62564" q0="0" q1="0.724417" q2="0" q3="0.689361" euler_x="3.14159" euler_y="1.52118" euler_z="3.14159" id="28" version="1">
+            <parameters />
+            <EnvObject t0="0.707187" t1="2.27711" t2="2.8231" s0="0.0910002" s1="0.265055" s2="0.142339" q0="-0.178419" q1="0.665871" q2="0.187493" q3="-0.699733" euler_x="1.47187" euler_y="-1.04507" euler_z="-1.48516" id="29" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="0.713028" t1="3.0606" t2="3.111" s0="0.0909994" s1="0.0922002" s2="0.13659" q0="0.133721" q1="0.676267" q2="-0.140522" q3="-0.710657" euler_x="-1.44114" euler_y="-1.17738" euler_z="1.45095" id="30" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="0.705417" t1="3.4338" t2="3.1422" s0="0.0909994" s1="0.0922002" s2="0.153863" q0="0.674678" q1="0.141521" q2="-0.708987" q3="-0.148718" euler_x="-1.44793" euler_y="1.15447" euler_z="1.68325" id="31" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="0.703148" t1="4.0333" t2="2.9061" s0="0.0827634" s1="0.206877" s2="0.145578" q0="0.655048" q1="-0.214778" q2="-0.688359" q3="0.2257" euler_x="1.48718" euler_y="0.935449" euler_z="-1.63814" id="32" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+                <parameters />
+            </EnvObject>
+        </Group>
+    </Group>
+    <EnvObject t0="-2.99999" t1="1.25" t2="-1.5" s0="1.5645" s1="1.5645" s2="1.5645" q0="0" q1="-0.675317" q2="0" q3="0.737527" euler_x="0" euler_y="-1.48279" euler_z="0" id="33" color_r="1" color_g="1" color_b="1" overbright="15.174" type_file="Data/Objects/therium/rabbit_statue/rabbit_statue_1.xml">
+        <parameters>
+            <parameter name="Default Rotation W" type="float" val="0.737527" />
+            <parameter name="Default Rotation X" type="float" val="0" />
+            <parameter name="Default Rotation Y" type="float" val="-0.675317" />
+            <parameter name="Default Rotation Z" type="float" val="0" />
+            <parameter name="Name" type="string" val="Guard Statue" />
+        </parameters>
+    </EnvObject>
+    <Hotspot t0="0" t1="1" t2="15" s0="4" s1="0.5" s2="4" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="34" type_file="Data/Objects/Hotspots/suraks_playground_2/point_at_player.xml">
+        <parameters>
+            <parameter name="Do not reset" type="string" val="Ja, bitte" />
+            <parameter name="Object name to rotate" type="string" val="Rotating Half Pipe" />
+            <parameter name="Rotation offset" type="float" val="180" />
+        </parameters>
+        <Connections />
+        <ConnectionsFrom />
+    </Hotspot>
+    <EnvObject t0="4" t1="5" t2="15" s0="1" s1="1" s2="1" q0="0" q1="-0.707107" q2="0" q3="0.707107" euler_x="0" euler_y="-1.5708" euler_z="0" id="35" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/halfpipe.xml">
+        <parameters>
+            <parameter name="Name" type="string" val="Rotating Half Pipe" />
+        </parameters>
+    </EnvObject>
+    <EnvObject t0="-4" t1="5" t2="15" s0="1" s1="1" s2="1" q0="0" q1="0.707107" q2="0" q3="0.707107" euler_x="0" euler_y="1.5708" euler_z="0" id="36" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/halfpipe.xml">
+        <parameters>
+            <parameter name="Name" type="string" val="Rotating Half Pipe" />
+        </parameters>
+    </EnvObject>
+    <Hotspot t0="0.5" t1="0.376237" t2="0" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="37" type_file="Data/Objects/Hotspots/displaytext.xml">
+        <parameters>
+            <parameter name="Display Text" type="string" val="ROTATING HALF PIPES - Try to get on top of them! The trick is to jump early enough." />
+        </parameters>
+        <Connections />
+        <ConnectionsFrom />
+    </Hotspot>
+    <EnvObject t0="-8" t1="1.75" t2="6.5" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="38" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/MagmaArena/MagmaArenaFlag_Red1.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="8" t1="1.75" t2="6.5" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="39" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/MagmaArena/MagmaArenaFlag_Red1.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-8" t1="1.75" t2="23.5" s0="1" s1="1" s2="1" q0="0" q1="1" q2="0" q3="0" euler_x="3.14159" euler_y="0" euler_z="3.14159" id="40" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/MagmaArena/MagmaArenaFlag_Red1.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="8" t1="1.75" t2="23.5" s0="1" s1="1" s2="1" q0="0" q1="1" q2="0" q3="0" euler_x="3.14159" euler_y="0" euler_z="3.14159" id="41" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/MagmaArena/MagmaArenaFlag_Red1.xml">
+        <parameters />
+    </EnvObject>
+    <CameraObject t0="-7.6554" t1="21.6497" t2="26.8216" s0="1" s1="1" s2="1" q0="0.443834" q1="0.0957214" q2="-0.0477514" q3="0.889701" euler_x="0.925467" euler_y="0.214352" euler_z="0" id="888">
+        <parameters />
+    </CameraObject>
+</ActorObjects>
+<RecentItems>
+    <SpawnerItem display_name="Placeholder" path="Data/Objects/placeholder/empty_placeholder.xml" thumbnail_path="Data/UI/spawner/thumbs/Utility/empty_placeholder.png" />
+    <SpawnerItem display_name="Arena VIP Gatehouse" path="Data/Objects/Buildings/arena/arena_vip_gate.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/Arena VIP Gate.png" />
+    <SpawnerItem display_name="Fire wood" path="Data/Objects/Environment/camp/fire_wood.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/fire_wood.png" />
+    <SpawnerItem display_name="MagmaArenaFlag_Red1" path="Data/Prototypes/MagmaArena/MagmaArenaFlag_Red1.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/MagmaArenaFlag_Red1.png" />
+    <SpawnerItem display_name="ball.xml" path="Data/Objects/ball.xml" thumbnail_path="empty_placeholder.png" />
+    <SpawnerItem display_name="box.xml" path="Data/Objects/box.xml" thumbnail_path="empty_placeholder.png" />
+    <SpawnerItem display_name="cylinder.xml" path="Data/Objects/cylinder.xml" thumbnail_path="empty_placeholder.png" />
+    <SpawnerItem display_name="rabbot.xml" path="Data/Objects/characters/rabbot.xml" thumbnail_path="empty_placeholder.png" />
+    <SpawnerItem display_name="rabbot_actor.xml" path="Data/Objects/characters/rabbot_actor.xml" thumbnail_path="empty_placeholder.png" />
+    <SpawnerItem display_name="halfpipe.xml" path="Data/Objects/halfpipe.xml" thumbnail_path="empty_placeholder.png" />
+    <SpawnerItem display_name="wave.xml" path="Data/Objects/wave.xml" thumbnail_path="empty_placeholder.png" />
+    <SpawnerItem display_name="Ancient Rabbit Statue 1" path="Data/Objects/therium/rabbit_statue/rabbit_statue_1.xml" thumbnail_path="Data/Textures/ui/t2/spawner.jpg" />
+    <SpawnerItem display_name="Shrine" path="Data/Objects/therium/Prefabs/shrineprefab.xml" thumbnail_path="Data/Textures/ui/t2/spawner.jpg" />
+    <SpawnerItem display_name="Hooded Male Rat" path="Data/Objects/characters/rats/hooded_rat_actor.xml" thumbnail_path="Data/UI/spawner/thumbs/Character/Hooded_rat_actor.png" />
+    <SpawnerItem display_name="point_at_player.xml" path="Data/Objects/Hotspots/suraks_playground_2/point_at_player.xml" thumbnail_path="empty_placeholder.png" />
+    <SpawnerItem display_name="Display Text Hotspot" path="Data/Objects/Hotspots/displaytext.xml" thumbnail_path="Data/UI/spawner/thumbs/Hotspot/sign_icon.png" />
+    <SpawnerItem display_name="Magma Arena Flag Red 1" path="Data/Prototypes/MagmaArena/MagmaArenaFlag_Red1.xml" thumbnail_path="" />
+</RecentItems>
