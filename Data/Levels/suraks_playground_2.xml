@@ -8,17 +8,17 @@
     <Image></Image>
 </LoadingScreen>
 <Terrain>
-    <Heightmap>Data/Terrain/jims_playground_h2.tga</Heightmap>
+    <Heightmap>Data/Custom/twowolves/jims_playground/Terrain/jims_playground_h.tga</Heightmap>
     <ShaderExtra></ShaderExtra>
     <DetailMap></DetailMap>
-    <ColorMap>Data/Terrain/jims_playground_c.tga</ColorMap>
-    <WeightMap>Data/Terrain/jims_playground_h.tga</WeightMap>
-    <ModelOverride>Data/Terrain/jims_playground.obj</ModelOverride>
+    <ColorMap>Data/Custom/twowolves/jims_playground/Terrain/jims_playground_c.tga</ColorMap>
+    <WeightMap>Data/Custom/twowolves/jims_playground/Terrain/jims_playground_h.tga</WeightMap>
+    <ModelOverride>Data/Custom/twowolves/jims_playground/Terrain/jims_playground.obj</ModelOverride>
     <DetailMaps>
-        <DetailMap colorpath="Data/Textures/jims_grid_c.tga" normalpath="Data/Textures/jims_grid_n.tga" materialpath="Data/Materials/rock.xml" />
-        <DetailMap colorpath="Data/Textures/jims_grid_c.tga" normalpath="Data/Textures/jims_grid_n.tga" materialpath="Data/Materials/rock.xml" />
-        <DetailMap colorpath="Data/Textures/jims_grid_c.tga" normalpath="Data/Textures/jims_grid_n.tga" materialpath="Data/Materials/rock.xml" />
-        <DetailMap colorpath="Data/Textures/jims_grid_c.tga" normalpath="Data/Textures/jims_grid_n.tga" materialpath="Data/Materials/rock.xml" />
+        <DetailMap colorpath="Data/Custom/twowolves/jims_playground/Textures/jims_grid_c.tga" normalpath="Data/Custom/twowolves/jims_playground/Textures/jims_grid_n.tga" materialpath="Data/Materials/rock.xml" />
+        <DetailMap colorpath="Data/Custom/twowolves/jims_playground/Textures/jims_grid_c.tga" normalpath="Data/Custom/twowolves/jims_playground/Textures/jims_grid_n.tga" materialpath="Data/Materials/rock.xml" />
+        <DetailMap colorpath="Data/Custom/twowolves/jims_playground/Textures/jims_grid_c.tga" normalpath="Data/Custom/twowolves/jims_playground/Textures/jims_grid_n.tga" materialpath="Data/Materials/rock.xml" />
+        <DetailMap colorpath="Data/Custom/twowolves/jims_playground/Textures/jims_grid_c.tga" normalpath="Data/Custom/twowolves/jims_playground/Textures/jims_grid_n.tga" materialpath="Data/Materials/rock.xml" />
     </DetailMaps>
     <DetailObjects />
 </Terrain>
@@ -42,13 +42,13 @@
     <RayToSun r0="0.364252" r1="0.761459" r2="-0.536192" />
 </Sky>
 <ActorObjects>
-    <EnvObject t0="-6.07421" t1="3.8147e-006" t2="-53.5449" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="2" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/ball.xml">
+    <EnvObject t0="-6.07421" t1="3.8147e-006" t2="-53.5449" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="2" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/ball.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-23.867" t1="-3.8147e-006" t2="-53.59" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="3" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/box.xml">
+    <EnvObject t0="-23.867" t1="-3.8147e-006" t2="-53.59" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="3" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-41.4122" t1="0" t2="-53.3551" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="4" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/cylinder.xml">
+    <EnvObject t0="-41.4122" t1="0" t2="-53.3551" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="4" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/cylinder.xml">
         <parameters />
     </EnvObject>
     <ActorObject t0="-20" t1="1.00001" t2="0" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="5" type_file="Data/Objects/characters/rabbot_actor.xml" is_player="1">
@@ -104,10 +104,10 @@
         <Connections />
         <ConnectionsFrom />
     </Hotspot>
-    <EnvObject t0="-11.7068" t1="0" t2="-71.0358" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="9" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/halfpipe.xml">
+    <EnvObject t0="-11.7068" t1="0" t2="-71.0358" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="9" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/halfpipe.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-33.2505" t1="-3.8147e-006" t2="-70.8159" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="10" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/wave.xml">
+    <EnvObject t0="-33.2505" t1="-3.8147e-006" t2="-70.8159" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="10" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/wave.xml">
         <parameters />
     </EnvObject>
     <EnvObject t0="-2.99999" t1="1.25" t2="2" s0="1.5645" s1="1.5645" s2="1.5645" q0="0" q1="-0.747275" q2="0" q3="0.664514" euler_x="3.14159" euler_y="-1.45369" euler_z="3.14159" id="11" color_r="1" color_g="1" color_b="1" overbright="15.05" type_file="Data/Objects/therium/rabbit_statue/rabbit_statue_1.xml">
@@ -200,12 +200,12 @@
         <Connections />
         <ConnectionsFrom />
     </Hotspot>
-    <EnvObject t0="4" t1="5" t2="15" s0="1" s1="1" s2="1" q0="0" q1="-0.707107" q2="0" q3="0.707107" euler_x="0" euler_y="-1.5708" euler_z="0" id="35" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/halfpipe.xml">
+    <EnvObject t0="4" t1="5" t2="15" s0="1" s1="1" s2="1" q0="0" q1="-0.707107" q2="0" q3="0.707107" euler_x="0" euler_y="-1.5708" euler_z="0" id="35" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/halfpipe.xml">
         <parameters>
             <parameter name="Name" type="string" val="Rotating Half Pipe" />
         </parameters>
     </EnvObject>
-    <EnvObject t0="-4" t1="5" t2="15" s0="1" s1="1" s2="1" q0="0" q1="0.707107" q2="0" q3="0.707107" euler_x="0" euler_y="1.5708" euler_z="0" id="36" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/halfpipe.xml">
+    <EnvObject t0="-4" t1="5" t2="15" s0="1" s1="1" s2="1" q0="0" q1="0.707107" q2="0" q3="0.707107" euler_x="0" euler_y="1.5708" euler_z="0" id="36" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/halfpipe.xml">
         <parameters>
             <parameter name="Name" type="string" val="Rotating Half Pipe" />
         </parameters>
