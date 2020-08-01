@@ -200,13 +200,21 @@
         <Connections />
         <ConnectionsFrom />
     </Hotspot>
-    <EnvObject t0="4" t1="5" t2="15" s0="1" s1="1" s2="1" q0="0" q1="-0.707107" q2="0" q3="0.707107" euler_x="0" euler_y="-1.5708" euler_z="0" id="35" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/halfpipe.xml">
+    <EnvObject t0="4" t1="5" t2="15" s0="1" s1="1" s2="1" q0="0" q1="-0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="-1.5708" euler_z="3.14159" id="35" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/halfpipe.xml">
         <parameters>
+            <parameter name="Default rotation W" type="float" val="0.707107" />
+            <parameter name="Default rotation X" type="float" val="0" />
+            <parameter name="Default rotation Y" type="float" val="-0.707107" />
+            <parameter name="Default rotation Z" type="float" val="0" />
             <parameter name="Name" type="string" val="Rotating Half Pipe" />
         </parameters>
     </EnvObject>
-    <EnvObject t0="-4" t1="5" t2="15" s0="1" s1="1" s2="1" q0="0" q1="0.707107" q2="0" q3="0.707107" euler_x="0" euler_y="1.5708" euler_z="0" id="36" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/halfpipe.xml">
+    <EnvObject t0="-4" t1="5" t2="15" s0="1" s1="1" s2="1" q0="0" q1="0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="1.5708" euler_z="3.14159" id="36" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/halfpipe.xml">
         <parameters>
+            <parameter name="Default rotation W" type="float" val="0.707107" />
+            <parameter name="Default rotation X" type="float" val="0" />
+            <parameter name="Default rotation Y" type="float" val="0.707107" />
+            <parameter name="Default rotation Z" type="float" val="0" />
             <parameter name="Name" type="string" val="Rotating Half Pipe" />
         </parameters>
     </EnvObject>
@@ -229,7 +237,22 @@
     <EnvObject t0="8" t1="1.75" t2="23.5" s0="1" s1="1" s2="1" q0="0" q1="1" q2="0" q3="0" euler_x="3.14159" euler_y="0" euler_z="3.14159" id="41" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/MagmaArena/MagmaArenaFlag_Red1.xml">
         <parameters />
     </EnvObject>
-    <CameraObject t0="-7.6554" t1="21.6497" t2="26.8216" s0="1" s1="1" s2="1" q0="0.443834" q1="0.0957214" q2="-0.0477514" q3="0.889701" euler_x="0.925467" euler_y="0.214352" euler_z="0" id="888">
+    <Decal t0="0" t1="0" t2="15" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="42" type_file="Data/Objects/Decals/signs/glyph_rabbit.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </Decal>
+    <Decal t0="4" t1="0" t2="15" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="43" type_file="Data/Objects/Decals/signs/glyph_rabbit.xml" color_r="0.193264" color_g="0.223894" color_b="0.835294" overbright="0">
+        <parameters />
+    </Decal>
+    <Decal t0="-4" t1="0" t2="15" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="44" type_file="Data/Objects/Decals/signs/glyph_rabbit.xml" color_r="0.166044" color_g="0.192311" color_b="0.717647" overbright="0">
+        <parameters />
+    </Decal>
+    <Decal t0="-0.2" t1="0" t2="12" s0="0.5" s1="0.5" s2="0.5" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="45" type_file="Data/Objects/Decals/footprints/rabbit_dirt_footprint.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </Decal>
+    <Decal t0="0.2" t1="0" t2="12" s0="0.5" s1="0.5" s2="0.5" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="46" type_file="Data/Objects/Decals/footprints/rabbit_dirt_footprint.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </Decal>
+    <CameraObject t0="-12.9484" t1="27.802" t2="9.97081" s0="1" s1="1" s2="1" q0="0.408008" q1="0.518548" q2="-0.308857" q3="0.685015" euler_x="1.07438" euler_y="1.29592" euler_z="0" id="888">
         <parameters />
     </CameraObject>
 </ActorObjects>
@@ -251,4 +274,6 @@
     <SpawnerItem display_name="point_at_player.xml" path="Data/Objects/Hotspots/suraks_playground_2/point_at_player.xml" thumbnail_path="empty_placeholder.png" />
     <SpawnerItem display_name="Display Text Hotspot" path="Data/Objects/Hotspots/displaytext.xml" thumbnail_path="Data/UI/spawner/thumbs/Hotspot/sign_icon.png" />
     <SpawnerItem display_name="Magma Arena Flag Red 1" path="Data/Prototypes/MagmaArena/MagmaArenaFlag_Red1.xml" thumbnail_path="" />
+    <SpawnerItem display_name="Glyph Rabbit" path="Data/Objects/Decals/signs/glyph_rabbit.xml" thumbnail_path="Data/UI/spawner/thumbs/Decal/glyph_rabbit.png" />
+    <SpawnerItem display_name="Rabbit Dirt Footprint" path="Data/Objects/Decals/footprints/rabbit_dirt_footprint.xml" thumbnail_path="Data/UI/spawner/thumbs/Decal/footprints/rabbitdirtprint.png" />
 </RecentItems>
