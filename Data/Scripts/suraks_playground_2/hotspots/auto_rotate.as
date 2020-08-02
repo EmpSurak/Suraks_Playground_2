@@ -1,7 +1,7 @@
 #include "object_locator/object_locator.as"
 #include "timed_execution/timed_execution.as"
 #include "timed_execution/after_init_job.as"
-#include "timed_execution/simple_delayed_job.as"
+#include "timed_execution/repeating_delayed_job.as"
 
 const float MPI = 3.14159265359;
 const string _name_key = "Object name to rotate";
@@ -15,8 +15,9 @@ const string _no_reset_key = "Do not reset";
 string search_for_name;
 ObjectLocator locator;
 TimedExecution timer;
+float counter = 0;
 
-void Init() {
+void Init() {  
     timer.Add(AfterInitJob(function(){
         SetDefaultRotation();
     }));
@@ -31,27 +32,19 @@ void SetParameters() {
 }
 
 void HandleEvent(string event, MovementObject @mo){
-    if(event == "exit"){
-        if(!params.HasParam(_no_reset_key)){
-            timer.Add(SimpleDelayedJob(2.0f, function(){
-                ResetObjectsRotation();
-            }));
-        }
+    if(event == "enter"){
+        timer.Add(RepeatingDelayedJob(0.01f, function(){
+            RotateObjects();
+            return true;
+        }));
+    }else if(event == "exit"){
+        timer.DeleteAll();
     }
 }
 
 void Update(){
     if(EditorModeActive() || !ReadObjectFromID(hotspot.GetID()).GetEnabled()){
         return;
-    }
-
-    array<int> colliding_chars;
-    level.GetCollidingObjects(hotspot.GetID(), colliding_chars);
-    for(uint i = 0; i < colliding_chars.size(); i++){
-        if(ReadObjectFromID(colliding_chars[i]).GetType() == _movement_object){
-            MovementObject@ mo = ReadCharacterID(colliding_chars[i]);
-            RotateObjectsRelativeToPlayer(mo);
-        }
     }
     
     timer.Update();
@@ -86,14 +79,12 @@ void ResetObjectsRotation() {
     }
 }
 
-void RotateObjectsRelativeToPlayer(MovementObject @mo) {
+void RotateObjects(){
+    counter = (counter + 1) % 360;
     array<Object@> objects = GetObjects();
     for(uint i=0; i < objects.length(); ++i){
         Object @obj = objects[i];
-        vec3 obj_to_char = obj.GetTranslation() - mo.position;
-        obj_to_char = normalize(obj_to_char);
-        float rot = atan2(obj_to_char.x, obj_to_char.z)*180.0f/MPI - params.GetFloat(_rotation_offset_key);
-        obj.SetRotation(quaternion(vec4(0, 1, 0, rot*MPI/180.0f)));
+        obj.SetRotation(quaternion(vec4(0, 0, 1, counter*MPI/180.0f)));
     }
 }
 
