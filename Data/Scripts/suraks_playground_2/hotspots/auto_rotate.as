@@ -10,7 +10,12 @@ const string _default_name = "Unknown";
 const string _rotation_offset_key = "Rotation offset";
 const float _default_rotation_offset = 90.0f;
 const string _default_rotation_key = "Default rotation";
-const string _no_reset_key = "Do not reset";
+const string _repeat_time_key = "Repeat time";
+const float _default_repeat_time = 0.01f;
+const string _rotation_axis_key = "Rotation axis";
+const string _default_rotation_axis = "x";
+const string _round_increment_key = "Round increment";
+const float _default_round_increment = 1.00f;
 
 string search_for_name;
 ObjectLocator locator;
@@ -26,6 +31,8 @@ void Init() {
 void SetParameters() {
     params.AddString(_name_key, _default_name);
     params.AddFloat(_rotation_offset_key, _default_rotation_offset);
+    params.AddFloat(_repeat_time_key, _default_repeat_time);
+    params.AddString(_rotation_axis_key, _default_rotation_axis);
     
     // Has to be global for the anonymous function.
     search_for_name = params.GetString(_name_key);
@@ -33,7 +40,11 @@ void SetParameters() {
 
 void HandleEvent(string event, MovementObject @mo){
     if(event == "enter"){
-        timer.Add(RepeatingDelayedJob(0.01f, function(){
+        float repeat_time = _default_repeat_time;
+        if(params.HasParam(_repeat_time_key)){
+            repeat_time = params.GetFloat(_repeat_time_key);
+        }
+        timer.Add(RepeatingDelayedJob(repeat_time, function(){
             RotateObjects();
             return true;
         }));
@@ -80,11 +91,26 @@ void ResetObjectsRotation() {
 }
 
 void RotateObjects(){
-    counter = (counter + 1) % 360;
+    float round_increment = _default_round_increment;
+    if(params.HasParam(_round_increment_key)){
+        round_increment = params.GetFloat(_round_increment_key);
+    }
+    counter = (counter + round_increment) % 360;
+
     array<Object@> objects = GetObjects();
     for(uint i=0; i < objects.length(); ++i){
         Object @obj = objects[i];
-        obj.SetRotation(quaternion(vec4(0, 0, 1, counter*MPI/180.0f)));
+
+        string rotation_axis = _default_rotation_axis;
+        if(params.HasParam(_rotation_axis_key)){
+            rotation_axis = params.GetString(_rotation_axis_key);
+        }
+
+        if(rotation_axis == "x"){
+            obj.SetRotation(quaternion(vec4(0, 1, 0, counter*MPI/180.0f)));
+        }else if(rotation_axis == "y"){
+            obj.SetRotation(quaternion(vec4(0, 0, 1, counter*MPI/180.0f)));
+        }
     }
 }
 

@@ -60,7 +60,7 @@
     <EnvObject t0="-41.4122" t1="0" t2="-53.3551" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="4" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/cylinder.xml">
         <parameters />
     </EnvObject>
-    <ActorObject t0="-31.8346" t1="1.00001" t2="20.8803" s0="1" s1="1" s2="1" q0="0" q1="0.707107" q2="0" q3="0.707107" euler_x="0" euler_y="1.57045" euler_z="0" id="5" type_file="Data/Objects/characters/rabbot_actor.xml" is_player="1">
+    <ActorObject t0="-31.8346" t1="1.00001" t2="20.8803" s0="1" s1="1" s2="1" q0="0" q1="0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="1.5708" euler_z="3.14159" id="5" type_file="Data/Objects/characters/rabbot_actor.xml" is_player="1">
         <parameters>
             <parameter name="Aggression" type="float" val="0.5" />
             <parameter name="Attack Damage" type="float" val="1" />
@@ -117,6 +117,7 @@
     <Hotspot t0="-4.99999" t1="1.99971" t2="5.00032" s0="10.0001" s1="1.00001" s2="10.0001" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="8" type_file="Data/Objects/Hotspots/suraks_playground_2/point_at_player.xml">
         <parameters>
             <parameter name="Object name to rotate" type="string" val="Guard Statue Yellow" />
+            <parameter name="Reset time" type="float" val="5" />
             <parameter name="Rotation offset" type="float" val="180" />
         </parameters>
         <Connections />
@@ -213,6 +214,7 @@
         <parameters>
             <parameter name="Do not reset" type="string" val="Ja, bitte" />
             <parameter name="Object name to rotate" type="string" val="Rotating Half Pipe Level 1" />
+            <parameter name="Reset time" type="float" val="5" />
             <parameter name="Rotation offset" type="float" val="180" />
         </parameters>
         <Connections />
@@ -259,6 +261,7 @@
         <parameters>
             <parameter name="Do not reset" type="string" val="Ja, bitte" />
             <parameter name="Object name to rotate" type="string" val="Rotating Half Pipe Level 3" />
+            <parameter name="Reset time" type="float" val="5" />
             <parameter name="Rotation offset" type="float" val="180" />
         </parameters>
         <Connections />
@@ -280,6 +283,7 @@
         <parameters>
             <parameter name="Do not reset" type="string" val="Ja, bitte" />
             <parameter name="Object name to rotate" type="string" val="Rotating Half Pipe Level 2" />
+            <parameter name="Reset time" type="float" val="5" />
             <parameter name="Rotation offset" type="float" val="180" />
         </parameters>
         <Connections />
@@ -306,6 +310,7 @@
     <Hotspot t0="-4.99999" t1="1.99971" t2="45" s0="10.0001" s1="1.00001" s2="10.0001" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="53" type_file="Data/Objects/Hotspots/suraks_playground_2/point_at_player.xml">
         <parameters>
             <parameter name="Object name to rotate" type="string" val="Guard Statue Green" />
+            <parameter name="Reset time" type="float" val="5" />
             <parameter name="Rotation offset" type="float" val="180" />
         </parameters>
         <Connections />
@@ -399,7 +404,7 @@
         <Connections />
         <ConnectionsFrom />
     </Hotspot>
-    <CameraObject t0="-40.4848" t1="12.6519" t2="24.2367" s0="1" s1="1" s2="1" q0="0.213056" q1="0.665083" q2="-0.206799" q3="0.685205" euler_x="0.602921" euler_y="1.54099" euler_z="0" id="888">
+    <CameraObject t0="-59.7749" t1="22.0062" t2="14.3886" s0="1" s1="1" s2="1" q0="0.111525" q1="0.693998" q2="-0.110143" q3="0.702707" euler_x="0.314798" euler_y="1.55831" euler_z="1.19497e-005" id="888">
         <parameters />
     </CameraObject>
 </ActorObjects>

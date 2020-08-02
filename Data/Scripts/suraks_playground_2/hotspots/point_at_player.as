@@ -11,6 +11,8 @@ const string _rotation_offset_key = "Rotation offset";
 const float _default_rotation_offset = 90.0f;
 const string _default_rotation_key = "Default rotation";
 const string _no_reset_key = "Do not reset";
+const string _reset_time_key = "Reset time";
+const float _default_reset_time = 5.0f;
 
 string search_for_name;
 ObjectLocator locator;
@@ -25,6 +27,7 @@ void Init() {
 void SetParameters() {
     params.AddString(_name_key, _default_name);
     params.AddFloat(_rotation_offset_key, _default_rotation_offset);
+    params.AddFloat(_reset_time_key, _default_reset_time);
     
     // Has to be global for the anonymous function.
     search_for_name = params.GetString(_name_key);
@@ -33,7 +36,11 @@ void SetParameters() {
 void HandleEvent(string event, MovementObject @mo){
     if(event == "exit"){
         if(!params.HasParam(_no_reset_key)){
-            timer.Add(SimpleDelayedJob(2.0f, function(){
+            float reset_time = 0.0f;
+            if(params.HasParam(_reset_time_key)){
+                reset_time = params.GetFloat(_reset_time_key);
+            }
+            timer.Add(SimpleDelayedJob(reset_time, function(){
                 ResetObjectsRotation();
             }));
         }
