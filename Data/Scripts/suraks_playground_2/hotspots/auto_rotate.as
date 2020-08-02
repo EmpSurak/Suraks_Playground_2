@@ -30,9 +30,10 @@ void Init() {
 
 void SetParameters() {
     params.AddString(_name_key, _default_name);
-    params.AddFloat(_rotation_offset_key, _default_rotation_offset);
-    params.AddFloat(_repeat_time_key, _default_repeat_time);
+    params.AddString(_rotation_offset_key, formatFloat(_default_rotation_offset, '0', 2, 2));
+    params.AddString(_repeat_time_key, formatFloat(_default_repeat_time, '0', 2, 2));
     params.AddString(_rotation_axis_key, _default_rotation_axis);
+    params.AddString(_round_increment_key, formatFloat(_default_round_increment, '0', 2, 2));
     
     // Has to be global for the anonymous function.
     search_for_name = params.GetString(_name_key);

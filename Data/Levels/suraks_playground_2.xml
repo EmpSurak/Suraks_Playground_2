@@ -214,8 +214,8 @@
         <parameters>
             <parameter name="Do not reset" type="string" val="Ja, bitte" />
             <parameter name="Object name to rotate" type="string" val="Rotating Half Pipe Level 1" />
-            <parameter name="Reset time" type="float" val="5" />
-            <parameter name="Rotation offset" type="float" val="180" />
+            <parameter name="Reset time" type="string" val="5.00" />
+            <parameter name="Rotation offset" type="string" val="180" />
         </parameters>
         <Connections />
         <ConnectionsFrom />
@@ -261,8 +261,8 @@
         <parameters>
             <parameter name="Do not reset" type="string" val="Ja, bitte" />
             <parameter name="Object name to rotate" type="string" val="Rotating Half Pipe Level 3" />
-            <parameter name="Reset time" type="float" val="5" />
-            <parameter name="Rotation offset" type="float" val="180" />
+            <parameter name="Reset time" type="string" val="5.00" />
+            <parameter name="Rotation offset" type="string" val="180" />
         </parameters>
         <Connections />
         <ConnectionsFrom />
@@ -283,8 +283,8 @@
         <parameters>
             <parameter name="Do not reset" type="string" val="Ja, bitte" />
             <parameter name="Object name to rotate" type="string" val="Rotating Half Pipe Level 2" />
-            <parameter name="Reset time" type="float" val="5" />
-            <parameter name="Rotation offset" type="float" val="180" />
+            <parameter name="Reset time" type="string" val="5.00" />
+            <parameter name="Rotation offset" type="string" val="180" />
         </parameters>
         <Connections />
         <ConnectionsFrom />
@@ -307,6 +307,17 @@
             <parameter name="Name" type="string" val="Rotating Half Pipe Level 2" />
         </parameters>
     </EnvObject>
+    <Hotspot t0="-3.70741e-005" t1="1.00018" t2="54.9999" s0="4" s1="0.5" s2="4" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="52" type_file="Data/Objects/Hotspots/suraks_playground_2/auto_rotate.xml">
+        <parameters>
+            <parameter name="Object name to rotate" type="string" val="Auto Rotate Level 1" />
+            <parameter name="Repeat time" type="string" val="0.01" />
+            <parameter name="Rotation axis" type="string" val="y" />
+            <parameter name="Rotation offset" type="string" val="90.00" />
+            <parameter name="Round increment" type="string" val="1.00" />
+        </parameters>
+        <Connections />
+        <ConnectionsFrom />
+    </Hotspot>
     <Hotspot t0="-4.99999" t1="1.99971" t2="45" s0="10.0001" s1="1.00001" s2="10.0001" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="53" type_file="Data/Objects/Hotspots/suraks_playground_2/point_at_player.xml">
         <parameters>
             <parameter name="Object name to rotate" type="string" val="Guard Statue Green" />
@@ -316,7 +327,7 @@
         <Connections />
         <ConnectionsFrom />
     </Hotspot>
-    <EnvObject t0="-2.99999" t1="1.25" t2="42" s0="1.5645" s1="1.5645" s2="1.5645" q0="0" q1="-0.747275" q2="0" q3="0.664514" euler_x="3.14159" euler_y="-1.45368" euler_z="3.14159" id="54" color_r="0.0714287" color_g="1" color_b="0" overbright="15.05" type_file="Data/Objects/therium/rabbit_statue/rabbit_statue_1.xml">
+    <EnvObject t0="-2.99999" t1="1.25" t2="42" s0="1.5645" s1="1.5645" s2="1.5645" q0="0" q1="-0.283877" q2="0" q3="-0.958861" euler_x="0" euler_y="0.575669" euler_z="0" id="54" color_r="0.0714287" color_g="1" color_b="0" overbright="15.05" type_file="Data/Objects/therium/rabbit_statue/rabbit_statue_1.xml">
         <parameters>
             <parameter name="Default rotation W" type="float" val="0.664514" />
             <parameter name="Default rotation X" type="float" val="0" />
@@ -388,7 +399,7 @@
             </EnvObject>
         </Group>
     </Group>
-    <EnvObject t0="-2.99999" t1="1.25" t2="38.5" s0="1.5645" s1="1.5645" s2="1.5645" q0="0" q1="-0.675317" q2="0" q3="0.737527" euler_x="0" euler_y="-1.48278" euler_z="0" id="76" color_r="0.0714287" color_g="1" color_b="0" overbright="15.05" type_file="Data/Objects/therium/rabbit_statue/rabbit_statue_1.xml">
+    <EnvObject t0="-2.99999" t1="1.25" t2="38.5" s0="1.5645" s1="1.5645" s2="1.5645" q0="0" q1="-0.239457" q2="0" q3="-0.970907" euler_x="0" euler_y="0.483612" euler_z="0" id="76" color_r="0.0714287" color_g="1" color_b="0" overbright="15.05" type_file="Data/Objects/therium/rabbit_statue/rabbit_statue_1.xml">
         <parameters>
             <parameter name="Default rotation W" type="float" val="0.737527" />
             <parameter name="Default rotation X" type="float" val="0" />
@@ -404,7 +415,65 @@
         <Connections />
         <ConnectionsFrom />
     </Hotspot>
-    <CameraObject t0="-59.7749" t1="22.0062" t2="14.3886" s0="1" s1="1" s2="1" q0="0.111525" q1="0.693998" q2="-0.110143" q3="0.702707" euler_x="0.314798" euler_y="1.55831" euler_z="1.19497e-005" id="888">
+    <EnvObject t0="0" t1="-3.8147e-006" t2="55" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0.75471" q3="0.656059" euler_x="0" euler_y="0" euler_z="1.71042" id="78" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml">
+        <parameters>
+            <parameter name="Default rotation W" type="float" val="1" />
+            <parameter name="Default rotation X" type="float" val="0" />
+            <parameter name="Default rotation Y" type="float" val="0" />
+            <parameter name="Default rotation Z" type="float" val="0" />
+            <parameter name="Name" type="string" val="Auto Rotate Level 1" />
+        </parameters>
+    </EnvObject>
+    <EnvObject t0="-0.642" t1="11" t2="47.8915" s0="1" s1="0.5" s2="0.75" q0="0" q1="0" q2="0.901644" q3="-0.432479" euler_x="0" euler_y="0" euler_z="-2.24711" id="79" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml">
+        <parameters>
+            <parameter name="Default rotation W" type="float" val="1" />
+            <parameter name="Default rotation X" type="float" val="0" />
+            <parameter name="Default rotation Y" type="float" val="0" />
+            <parameter name="Default rotation Z" type="float" val="0" />
+            <parameter name="Name" type="string" val="Auto Rotate Level 2" />
+        </parameters>
+    </EnvObject>
+    <Hotspot t0="0" t1="6.25611" t2="54.9999" s0="4" s1="3.12797" s2="4" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="80" type_file="Data/Objects/Hotspots/suraks_playground_2/auto_rotate.xml">
+        <parameters>
+            <parameter name="Object name to rotate" type="string" val="Auto Rotate Level 2" />
+            <parameter name="Repeat time" type="string" val="0.01" />
+            <parameter name="Rotation axis" type="string" val="y" />
+            <parameter name="Rotation offset" type="string" val="90.00" />
+            <parameter name="Round increment" type="string" val="0.25" />
+        </parameters>
+        <Connections />
+        <ConnectionsFrom />
+    </Hotspot>
+    <EnvObject t0="4.95911e-005" t1="5.5" t2="53.5" s0="0.5" s1="0.5" s2="0.5" q0="0" q1="0" q2="0.901644" q3="-0.432479" euler_x="0" euler_y="0" euler_z="-2.24711" id="81" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml">
+        <parameters>
+            <parameter name="Default rotation W" type="float" val="1" />
+            <parameter name="Default rotation X" type="float" val="0" />
+            <parameter name="Default rotation Y" type="float" val="0" />
+            <parameter name="Default rotation Z" type="float" val="0" />
+            <parameter name="Name" type="string" val="Auto Rotate Level 2" />
+        </parameters>
+    </EnvObject>
+    <EnvObject t0="-4.68733" t1="9.33047" t2="52.8961" s0="0.5" s1="0.5" s2="0.25" q0="0" q1="0" q2="-0.95502" q3="0.296542" euler_x="0" euler_y="0" euler_z="-2.53945" id="82" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml">
+        <parameters>
+            <parameter name="Default rotation W" type="float" val="1" />
+            <parameter name="Default rotation X" type="float" val="0" />
+            <parameter name="Default rotation Y" type="float" val="0" />
+            <parameter name="Default rotation Z" type="float" val="0" />
+            <parameter name="Name" type="string" val="Auto Rotate Level 3" />
+        </parameters>
+    </EnvObject>
+    <Hotspot t0="0" t1="6.256" t2="54.9999" s0="4" s1="3.12797" s2="4" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="83" type_file="Data/Objects/Hotspots/suraks_playground_2/auto_rotate.xml">
+        <parameters>
+            <parameter name="Object name to rotate" type="string" val="Auto Rotate Level 3" />
+            <parameter name="Repeat time" type="string" val="0.01" />
+            <parameter name="Rotation axis" type="string" val="y" />
+            <parameter name="Rotation offset" type="string" val="90.00" />
+            <parameter name="Round increment" type="string" val="-0.25" />
+        </parameters>
+        <Connections />
+        <ConnectionsFrom />
+    </Hotspot>
+    <CameraObject t0="-43.6521" t1="23.6165" t2="84.0497" s0="1" s1="1" s2="1" q0="-0.166102" q1="-0.410064" q2="0.0762258" q3="-0.893559" euler_x="0.36758" euler_y="0.860479" euler_z="0" id="888">
         <parameters />
     </CameraObject>
 </ActorObjects>

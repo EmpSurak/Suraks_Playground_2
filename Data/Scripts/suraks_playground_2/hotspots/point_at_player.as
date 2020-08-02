@@ -26,8 +26,8 @@ void Init() {
 
 void SetParameters() {
     params.AddString(_name_key, _default_name);
-    params.AddFloat(_rotation_offset_key, _default_rotation_offset);
-    params.AddFloat(_reset_time_key, _default_reset_time);
+    params.AddString(_rotation_offset_key, formatFloat(_default_rotation_offset, '0', 2, 2));
+    params.AddString(_reset_time_key, formatFloat(_default_reset_time, '0', 2, 2));
     
     // Has to be global for the anonymous function.
     search_for_name = params.GetString(_name_key);
