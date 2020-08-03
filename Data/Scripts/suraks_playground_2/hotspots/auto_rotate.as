@@ -63,22 +63,21 @@ void RotateObjects(){
     for(uint i=0; i < objects.length(); ++i){
         Object @obj = objects[i];
         quaternion rot = obj.GetRotation();
-        float value = params.GetFloat(_round_increment_x_key)*MPI/180.0f;
-        
+
         if(params.HasParam(_round_increment_x_key) && params.GetFloat(_round_increment_x_key) > 0.0f){
-            int multiplier = 1;
+            float value = params.GetFloat(_round_increment_x_key)*MPI/180.0f;
             if(params.HasParam(_reverse_x_key) && params.GetString(_reverse_x_key) == "1"){
-                multiplier = -1;
+                value *= -1;
             }
-            rot = quaternion(vec4(0, 0, 1, multiplier*value)) * rot;
+            rot = quaternion(vec4(0, 0, 1, value)) * rot;
         }
         
         if(params.HasParam(_round_increment_y_key) && params.GetFloat(_round_increment_y_key) > 0.0f){
-            int multiplier = 1;
+            float value = params.GetFloat(_round_increment_y_key)*MPI/180.0f;
             if(params.HasParam(_reverse_y_key) && params.GetString(_reverse_y_key) == "1"){
-                multiplier = -1;
+                value *= -1;
             }
-            rot = quaternion(vec4(0, 1, 0, multiplier*value)) * rot;
+            rot = quaternion(vec4(0, 1, 0, value)) * rot;
         }
         
         obj.SetRotation(rot);
