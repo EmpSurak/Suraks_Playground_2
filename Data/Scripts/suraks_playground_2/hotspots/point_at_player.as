@@ -18,13 +18,13 @@ string search_for_name;
 ObjectLocator locator;
 TimedExecution timer;
 
-void Init() {
+void Init(){
     timer.Add(AfterInitJob(function(){
         SetDefaultRotation();
     }));
 }
 
-void SetParameters() {
+void SetParameters(){
     params.AddString(_name_key, _default_name);
     params.AddString(_rotation_offset_key, formatFloat(_default_rotation_offset, '0', 2, 2));
     params.AddString(_reset_time_key, formatFloat(_default_reset_time, '0', 2, 2));
