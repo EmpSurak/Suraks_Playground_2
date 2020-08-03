@@ -14,6 +14,8 @@ const string _round_increment_x_key = "Round increment X";
 const float _default_round_increment_x = 0.00f;
 const string _round_increment_y_key = "Round increment Y";
 const float _default_round_increment_y = 0.00f;
+const string _reverse_x_key = "Reverse X";
+const string _reverse_y_key = "Reverse Y";
 
 string search_for_name;
 ObjectLocator locator;
@@ -26,6 +28,8 @@ void SetParameters(){
     params.AddString(_repeat_time_key, formatFloat(_default_repeat_time, '0', 2, 2));
     params.AddString(_round_increment_x_key, formatFloat(_default_round_increment_x, '0', 2, 2));
     params.AddString(_round_increment_y_key, formatFloat(_default_round_increment_y, '0', 2, 2));
+    params.AddString(_reverse_x_key, "0");
+    params.AddString(_reverse_y_key, "0");
     
     // Has to be global for the anonymous function.
     search_for_name = params.GetString(_name_key);
@@ -58,17 +62,26 @@ void RotateObjects(){
     array<Object@> objects = GetObjects();
     for(uint i=0; i < objects.length(); ++i){
         Object @obj = objects[i];
-        quaternion rotation = obj.GetRotation();
+        quaternion rot = obj.GetRotation();
+        float value = params.GetFloat(_round_increment_x_key)*MPI/180.0f;
         
         if(params.HasParam(_round_increment_x_key) && params.GetFloat(_round_increment_x_key) > 0.0f){
-            rotation = quaternion(vec4(0, 0, 1, params.GetFloat(_round_increment_x_key)*MPI/180.0f)) * rotation;
+            int multiplier = 1;
+            if(params.HasParam(_reverse_x_key) && params.GetString(_reverse_x_key) == "1"){
+                multiplier = -1;
+            }
+            rot = quaternion(vec4(0, 0, 1, multiplier*value)) * rot;
         }
         
         if(params.HasParam(_round_increment_y_key) && params.GetFloat(_round_increment_y_key) > 0.0f){
-            rotation = quaternion(vec4(0, 0, 1, params.GetFloat(_round_increment_y_key)*MPI/180.0f)) * rotation;
+            int multiplier = 1;
+            if(params.HasParam(_reverse_y_key) && params.GetString(_reverse_y_key) == "1"){
+                multiplier = -1;
+            }
+            rot = quaternion(vec4(0, 1, 0, multiplier*value)) * rot;
         }
         
-        obj.SetRotation(rotation);
+        obj.SetRotation(rot);
     }
 }
 
