@@ -3,8 +3,8 @@
 funcdef void AFTER_RAGDOLL_CALLBACK(MovementObject@);
 
 class AfterRagdollJob : AfterCharInitJob {
-    MovementObject @char;
-    AFTER_RAGDOLL_CALLBACK @new_callback;
+    protected MovementObject @char;
+    protected AFTER_RAGDOLL_CALLBACK @new_callback;
 
     AfterRagdollJob(){}
 
@@ -17,7 +17,7 @@ class AfterRagdollJob : AfterCharInitJob {
         new_callback(char);
     }
 
-    bool IsExpired(float time){
+    bool IsExpired(){
         return char.GetIntVar("state") != 4; // _ragdoll_state
     }
 }

@@ -24,7 +24,7 @@
 </Terrain>
 <OutOfDate NavMesh="true" NavMeshParamHash="-1674835251" />
 <AmbientSounds />
-<Script></Script>
+<Script>Data/Scripts/timed_execution/timed_execution_example.as</Script>
 <LevelScriptParameters>
     <parameter name="Achievements" type="string" val="flawless, no_injuries, no_kills" />
     <parameter name="HDR Black point" type="float" val="0.005" />

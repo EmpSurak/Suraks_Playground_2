@@ -28,7 +28,7 @@ void SetParameters(){
     params.AddString(_name_key, _default_name);
     params.AddString(_rotation_offset_key, formatFloat(_default_rotation_offset, '0', 2, 2));
     params.AddString(_reset_time_key, formatFloat(_default_reset_time, '0', 2, 2));
-    
+
     // Has to be global for the anonymous function.
     search_for_name = params.GetString(_name_key);
 }
@@ -60,16 +60,16 @@ void Update(){
             RotateObjectsRelativeToPlayer(mo);
         }
     }
-    
+
     timer.Update();
 }
 
-void SetDefaultRotation() {
+void SetDefaultRotation(){
     array<Object@> objects = GetDefaultlessObjects();
     for(uint i=0; i < objects.length(); ++i){
         Object @obj = objects[i];
         ScriptParams@ obj_params = obj.GetScriptParams();
-        
+
         quaternion rot = obj.GetRotation();
         obj_params.AddFloat(_default_rotation_key + " X", rot.x);
         obj_params.AddFloat(_default_rotation_key + " Y", rot.y);
@@ -78,12 +78,12 @@ void SetDefaultRotation() {
     }
 }
 
-void ResetObjectsRotation() {
+void ResetObjectsRotation(){
     array<Object@> objects = GetObjects();
     for(uint i=0; i < objects.length(); ++i){
         Object @obj = objects[i];
         ScriptParams@ obj_params = obj.GetScriptParams();
-        
+
         obj.SetRotation(quaternion(
             obj_params.GetFloat(_default_rotation_key + " X"),
             obj_params.GetFloat(_default_rotation_key + " Y"),
@@ -93,7 +93,7 @@ void ResetObjectsRotation() {
     }
 }
 
-void RotateObjectsRelativeToPlayer(MovementObject @mo) {
+void RotateObjectsRelativeToPlayer(MovementObject @mo){
     array<Object@> objects = GetObjects();
     for(uint i=0; i < objects.length(); ++i){
         Object @obj = objects[i];

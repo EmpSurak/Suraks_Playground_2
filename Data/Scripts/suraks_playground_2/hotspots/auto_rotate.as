@@ -30,7 +30,7 @@ void SetParameters(){
     params.AddString(_round_increment_y_key, formatFloat(_default_round_increment_y, '0', 2, 2));
     params.AddString(_reverse_x_key, "0");
     params.AddString(_reverse_y_key, "0");
-    
+
     // Has to be global for the anonymous function.
     search_for_name = params.GetString(_name_key);
 }
@@ -54,7 +54,7 @@ void Update(){
     if(!ReadObjectFromID(hotspot.GetID()).GetEnabled()){
         return;
     }
-    
+
     timer.Update();
 }
 
@@ -71,7 +71,7 @@ void RotateObjects(){
             }
             rot = quaternion(vec4(0, 0, 1, value)) * rot;
         }
-        
+
         if(params.HasParam(_round_increment_y_key) && params.GetFloat(_round_increment_y_key) > 0.0f){
             float value = params.GetFloat(_round_increment_y_key)*MPI/180.0f;
             if(params.HasParam(_reverse_y_key) && params.GetString(_reverse_y_key) == "1"){
@@ -79,7 +79,7 @@ void RotateObjects(){
             }
             rot = quaternion(vec4(0, 1, 0, value)) * rot;
         }
-        
+
         obj.SetRotation(rot);
     }
 }

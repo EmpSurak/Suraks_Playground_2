@@ -32,7 +32,7 @@ void Init(){
     level.ReceiveLevelEvents(hotspot.GetID());
 }
 
-void Dispose() {
+void Dispose(){
     level.StopReceivingLevelEvents(hotspot.GetID());
 }
 

@@ -3,7 +3,7 @@
 funcdef void CHAR_DEATH_EVENT_CALLBACK(MovementObject@);
 
 class CharDeathEventJob : LevelEventJob {
-    CHAR_DEATH_EVENT_CALLBACK @sp_callback;
+    protected CHAR_DEATH_EVENT_CALLBACK @sp_callback;
 
     CharDeathEventJob(){}
 
