@@ -9,7 +9,7 @@
     <PreviewImage>Data/Images/suraks_playground_2/thumb.jpg</PreviewImage>
 
     <Description>Suraks 2nd test level.</Description>
-    <Version>0.2.4</Version>
+    <Version>0.3.0</Version>
     <Author>Surak</Author>
 
     <Tag>Script</Tag>
@@ -24,7 +24,7 @@
     </ModDependency>
     <ModDependency>
        <Id>com-surak-timed-execution</Id>
-       <Version>0.4.0</Version> 
+       <Version>0.9.0</Version> 
     </ModDependency>
     <ModDependency>
        <Id>jims-assets</Id>
