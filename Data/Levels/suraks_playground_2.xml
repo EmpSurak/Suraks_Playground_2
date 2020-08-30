@@ -595,7 +595,7 @@
             <parameter name="Reverse X" type="string" val="0" />
             <parameter name="Reverse Y" type="string" val="0" />
             <parameter name="Reverse Z" type="string" val="0" />
-            <parameter name="Round increment X" type="string" val="0.01" />
+            <parameter name="Round increment" type="string" val="0.01" />
         </parameters>
         <Connections />
         <ConnectionsFrom />
@@ -610,7 +610,7 @@
             <parameter name="Reverse X" type="string" val="0" />
             <parameter name="Reverse Y" type="string" val="0" />
             <parameter name="Reverse Z" type="string" val="0" />
-            <parameter name="Round increment X" type="string" val="0.002" />
+            <parameter name="Round increment" type="string" val="0.002" />
         </parameters>
         <Connections />
         <ConnectionsFrom />
@@ -633,7 +633,7 @@
             <parameter name="Reverse X" type="string" val="1" />
             <parameter name="Reverse Y" type="string" val="1" />
             <parameter name="Reverse Z" type="string" val="1" />
-            <parameter name="Round increment X" type="string" val="0.01" />
+            <parameter name="Round increment" type="string" val="0.01" />
         </parameters>
         <Connections />
         <ConnectionsFrom />
@@ -756,7 +756,7 @@
             <parameter name="Reverse X" type="string" val="0" />
             <parameter name="Reverse Y" type="string" val="0" />
             <parameter name="Reverse Z" type="string" val="0" />
-            <parameter name="Round increment X" type="string" val="0.1" />
+            <parameter name="Round increment" type="string" val="0.1" />
         </parameters>
         <Connections />
         <ConnectionsFrom />
@@ -771,7 +771,7 @@
             <parameter name="Reverse X" type="string" val="0" />
             <parameter name="Reverse Y" type="string" val="0" />
             <parameter name="Reverse Z" type="string" val="1" />
-            <parameter name="Round increment X" type="string" val="0.1" />
+            <parameter name="Round increment" type="string" val="0.1" />
         </parameters>
         <Connections />
         <ConnectionsFrom />
