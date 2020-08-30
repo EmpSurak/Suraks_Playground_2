@@ -213,7 +213,7 @@
             </EnvObject>
         </Group>
     </Group>
-    <EnvObject t0="-2.99999" t1="1.25" t2="-1.5" s0="1.5645" s1="1.5645" s2="1.5645" q0="0" q1="-0.375886" q2="0" q3="0.926666" euler_x="0" euler_y="-0.770705" euler_z="0" id="33" color_r="1" color_g="0.869047" color_b="0" overbright="15.05" type_file="Data/Objects/therium/rabbit_statue/rabbit_statue_1.xml">
+    <EnvObject t0="-2.99999" t1="1.25" t2="-1.5" s0="1.5645" s1="1.5645" s2="1.5645" q0="0" q1="-0.375886" q2="0" q3="0.926666" euler_x="0" euler_y="-0.770706" euler_z="0" id="33" color_r="1" color_g="0.869047" color_b="0" overbright="15.05" type_file="Data/Objects/therium/rabbit_statue/rabbit_statue_1.xml">
         <parameters>
             <parameter name="Default rotation W" type="float" val="0.737527" />
             <parameter name="Default rotation X" type="float" val="0" />
@@ -567,19 +567,16 @@
         <Connections />
         <ConnectionsFrom />
     </Hotspot>
-    <Group t0="-1.85966e-005" t1="32.4999" t2="31.0002" s0="10.01" s1="10.01" s2="10.01" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="98" version="1">
+    <EnvObject t0="-1.84402e-005" t1="32.4999" t2="31.0002" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="96" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/room.xml">
         <parameters />
-        <Hotspot t0="0" t1="32" t2="31" s0="1.5" s1="1" s2="1.5" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="97" type_file="Data/Objects/Hotspots/suraks_playground_2/announcer.xml">
-            <parameters>
-                <parameter name="Announcement name" type="string" val="save_point" />
-            </parameters>
-            <Connections />
-            <ConnectionsFrom />
-        </Hotspot>
-        <EnvObject t0="-1.84402e-005" t1="32.4999" t2="31.0002" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="96" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/room.xml">
-            <parameters />
-        </EnvObject>
-    </Group>
+    </EnvObject>
+    <Hotspot t0="0" t1="34.2939" t2="31.0937" s0="1.5" s1="2.14695" s2="1.54685" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="97" type_file="Data/Objects/Hotspots/suraks_playground_2/announcer.xml">
+        <parameters>
+            <parameter name="Announcement name" type="string" val="save_point" />
+        </parameters>
+        <Connections />
+        <ConnectionsFrom />
+    </Hotspot>
     <EnvObject t0="8.72474" t1="43.7247" t2="18.7984" s0="1" s1="0.5" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="99" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/cylinder.xml">
         <parameters>
             <parameter name="Name" type="string" val="Circle Point Save 1" />
@@ -657,7 +654,7 @@
             <parameter name="Start Position Z" type="float" val="46" />
         </parameters>
     </EnvObject>
-    <EnvObject t0="-27.5412" t1="40.5918" t2="-5.33599" s0="4" s1="4" s2="4" q0="0.0461132" q1="-0.970523" q2="0.210891" q3="-0.120565" euler_x="-2.6994" euler_y="0.216253" euler_z="-2.99829" id="106" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/armormetal/cone.xml">
+    <EnvObject t0="-27.5412" t1="40.5918" t2="-5.33599" s0="4" s1="4" s2="4" q0="0.0461132" q1="-0.970523" q2="0.210891" q3="-0.120565" euler_x="-2.6994" euler_y="0.216254" euler_z="-2.99829" id="106" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/armormetal/cone.xml">
         <parameters>
             <parameter name="Name" type="string" val="Circle Point Save 2" />
             <parameter name="Start Position X" type="float" val="-13" />
@@ -708,6 +705,9 @@
         <Connections />
         <ConnectionsFrom />
     </Hotspot>
+    <EnvObject t0="0" t1="39.5" t2="31" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="113" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/MagmaArena/MagmaArenaFlag_White2.xml">
+        <parameters />
+    </EnvObject>
     <EnvObject t0="8.96454e-005" t1="55.0024" t2="31.0006" s0="3" s1="3" s2="3" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="114" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/armormetal/torus.xml">
         <parameters>
             <parameter name="Name" type="string" val="Angel 3" />
@@ -727,12 +727,63 @@
     </Hotspot>
     <Hotspot t0="0" t1="39.5" t2="31" s0="2.5" s1="1" s2="2.5" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="116" type_file="Data/Objects/Hotspots/suraks_playground_2/displaytext.xml">
         <parameters>
-            <parameter name="Display Text" type="string" val="To be continued!" />
+            <parameter name="Display Text" type="string" val="Jump!" />
         </parameters>
         <Connections />
         <ConnectionsFrom />
     </Hotspot>
-    <CameraObject t0="-49.5456" t1="43.2066" t2="19.6733" s0="1" s1="1" s2="1" q0="0.0349358" q1="0.693326" q2="-0.0336888" q3="0.718988" euler_x="0.0971036" euler_y="1.53446" euler_z="0" id="888">
+    <Hotspot t0="0" t1="42.5" t2="31" s0="2.5" s1="1" s2="2.5" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="117" type_file="Data/Objects/Hotspots/suraks_playground_2/launcher.xml">
+        <parameters>
+            <parameter name="Trigger on entry" type="string" val="1" />
+            <parameter name="Trigger on exit" type="string" val="0" />
+            <parameter name="Velocity x" type="string" val="0.0" />
+            <parameter name="Velocity y (up)" type="string" val="30" />
+            <parameter name="Velocity z" type="string" val="0.0" />
+        </parameters>
+        <Connections />
+        <ConnectionsFrom />
+    </Hotspot>
+    <EnvObject t0="0" t1="75" t2="41" s0="2" s1="2" s2="2" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="118" color_r="0.119048" color_g="1" color_b="0" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/armormetal/horse_shoe.xml">
+        <parameters>
+            <parameter name="Name" type="string" val="Horse 2" />
+        </parameters>
+    </EnvObject>
+    <EnvObject t0="0" t1="75" t2="20" s0="2" s1="2" s2="2" q0="0" q1="1" q2="0" q3="0" euler_x="3.14159" euler_y="0" euler_z="3.14159" id="119" color_r="0.119048" color_g="1" color_b="0" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/armormetal/horse_shoe.xml">
+        <parameters>
+            <parameter name="Name" type="string" val="Horse 1" />
+        </parameters>
+    </EnvObject>
+    <Hotspot t0="0" t1="66" t2="30.5" s0="5" s1="6" s2="10" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="120" type_file="Data/Objects/Hotspots/suraks_playground_2/auto_circle.xml">
+        <parameters>
+            <parameter name="Object name to circle" type="string" val="Horse 1" />
+            <parameter name="Radius X" type="string" val="0.00" />
+            <parameter name="Radius Y" type="string" val="0.00" />
+            <parameter name="Radius Z" type="string" val="1" />
+            <parameter name="Repeat time" type="string" val="0.01" />
+            <parameter name="Reverse X" type="string" val="0" />
+            <parameter name="Reverse Y" type="string" val="0" />
+            <parameter name="Reverse Z" type="string" val="0" />
+            <parameter name="Round increment X" type="string" val="0.1" />
+        </parameters>
+        <Connections />
+        <ConnectionsFrom />
+    </Hotspot>
+    <Hotspot t0="0.000503063" t1="66" t2="30.5" s0="5" s1="6" s2="10" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="121" type_file="Data/Objects/Hotspots/suraks_playground_2/auto_circle.xml">
+        <parameters>
+            <parameter name="Object name to circle" type="string" val="Horse 2" />
+            <parameter name="Radius X" type="string" val="0.00" />
+            <parameter name="Radius Y" type="string" val="0.00" />
+            <parameter name="Radius Z" type="string" val="1" />
+            <parameter name="Repeat time" type="string" val="0.01" />
+            <parameter name="Reverse X" type="string" val="0" />
+            <parameter name="Reverse Y" type="string" val="0" />
+            <parameter name="Reverse Z" type="string" val="1" />
+            <parameter name="Round increment X" type="string" val="0.1" />
+        </parameters>
+        <Connections />
+        <ConnectionsFrom />
+    </Hotspot>
+    <CameraObject t0="-73.2784" t1="69.5062" t2="52.6105" s0="1" s1="1" s2="1" q0="0.212973" q1="0.402542" q2="-0.0968708" q3="0.884997" euler_x="0.472315" euler_y="0.853761" euler_z="0" id="888">
         <parameters />
     </CameraObject>
 </ActorObjects>
@@ -760,12 +811,18 @@
     <SpawnerItem display_name="Coin" path="Data/Objects/therium/coin.xml" thumbnail_path="Data/Textures/ui/t2/spawner.jpg" />
     <SpawnerItem display_name="Mug" path="Data/Objects/therium/mug.xml" thumbnail_path="" />
     <SpawnerItem display_name="Watchtower Support" path="Data/Custom/twowolves/watch_tower/Objects/Buildings/jims_watchtower_support.xml" thumbnail_path="Data/Custom/twowolves/watch_tower/UI/spawner/thumbs/support.png" />
-    <SpawnerItem display_name="Glyph Rabbit" path="Data/Objects/Decals/signs/glyph_rabbit.xml" thumbnail_path="Data/UI/spawner/thumbs/Decal/glyph_rabbit.png" />
     <SpawnerItem display_name="Room" path="Data/Custom/twowolves/jims_playground/Objects/room.xml" thumbnail_path="Data/Custom/twowolves/jims_playground/UI/spawner/thumbs/room.png" />
-    <SpawnerItem display_name="auto_circle.xml" path="Data/Objects/Hotspots/suraks_playground_2/auto_circle.xml" thumbnail_path="empty_placeholder.png" />
     <SpawnerItem display_name="Armor-Metal(no DT) Cone" path="Data/Custom/FnB/Objects/Simple Shapes/armormetal/cone.xml" thumbnail_path="" />
     <SpawnerItem display_name="Armor-Metal(no DT) Torus" path="Data/Custom/FnB/Objects/Simple Shapes/armormetal/torus.xml" thumbnail_path="" />
     <SpawnerItem display_name="auto_rotate.xml" path="Data/Objects/Hotspots/suraks_playground_2/auto_rotate.xml" thumbnail_path="empty_placeholder.png" />
     <SpawnerItem display_name="Display Text Hotspot" path="Data/Objects/Hotspots/suraks_playground_2/displaytext.xml" thumbnail_path="Data/UI/spawner/thumbs/Hotspot/sign_icon.png" />
     <SpawnerItem display_name="Boundary Hotspot" path="Data/Objects/Hotspots/boundary.xml" thumbnail_path="" />
+    <SpawnerItem display_name="launcher.xml" path="Data/Objects/Hotspots/suraks_playground_2/launcher.xml" thumbnail_path="empty_placeholder.png" />
+    <SpawnerItem display_name="Glyph Rabbit" path="Data/Objects/Decals/signs/glyph_rabbit.xml" thumbnail_path="Data/UI/spawner/thumbs/Decal/glyph_rabbit.png" />
+    <SpawnerItem display_name="Bitumen-Shingles Octagon" path="Data/Custom/FnB/Objects/Simple Shapes/roof_bitumen/octagon.xml" thumbnail_path="" />
+    <SpawnerItem display_name="Armor-Metal(no DT) Half Tube" path="Data/Custom/FnB/Objects/Simple Shapes/armormetal/half_tube.xml" thumbnail_path="" />
+    <SpawnerItem display_name="Armor-Metal(no DT) Hollow Cone" path="Data/Custom/FnB/Objects/Simple Shapes/armormetal/hollow_cone.xml" thumbnail_path="" />
+    <SpawnerItem display_name="Armor-Metal(no DT) Horse Shoe" path="Data/Custom/FnB/Objects/Simple Shapes/armormetal/horse_shoe.xml" thumbnail_path="" />
+    <SpawnerItem display_name="auto_circle.xml" path="Data/Objects/Hotspots/suraks_playground_2/auto_circle.xml" thumbnail_path="empty_placeholder.png" />
+    <SpawnerItem display_name="Magma Arena Flag White 2" path="Data/Prototypes/MagmaArena/MagmaArenaFlag_White2.xml" thumbnail_path="" />
 </RecentItems>
