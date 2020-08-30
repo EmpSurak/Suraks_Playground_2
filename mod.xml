@@ -9,7 +9,7 @@
     <PreviewImage>Data/Images/suraks_playground_2/thumb.jpg</PreviewImage>
 
     <Description>Suraks 2nd test level.</Description>
-    <Version>0.4.0</Version>
+    <Version>0.4.1</Version>
     <Author>Surak</Author>
 
     <Tag>Script</Tag>
@@ -29,6 +29,10 @@
     <ModDependency>
        <Id>jims-assets</Id>
        <Version>1.0.1</Version> 
+    </ModDependency>
+    <ModDependency>
+       <Id>simple-shapes</Id>
+       <Version>1.0</Version> 
     </ModDependency>
 
     <Level title="Suraks Playground 2" thumbnail="UI/mainmenu/images/suraks_playground_2.png">suraks_playground_2.xml</Level>

@@ -71,6 +71,11 @@ void Update(){
 }
 
 void CircleObjects(){
+    if(!params.HasParam(_round_increment_key) || params.GetFloat(_round_increment_key) <= 0.0f){
+        return;
+    }
+    counter += params.GetFloat(_round_increment_key);
+
     array<Object@> objects = GetObjects();
     for(uint i=0; i < objects.length(); ++i){
         Object @obj = objects[i];
@@ -81,34 +86,28 @@ void CircleObjects(){
         obj_params.AddFloat(_start_pos_y_key, pos.y);
         obj_params.AddFloat(_start_pos_z_key, pos.z);
 
-        if(params.HasParam(_round_increment_key) && params.GetFloat(_round_increment_key) > 0.0f){
-            counter += params.GetFloat(_round_increment_key);
-        } else {
-            break;
-        }
-
         if(params.HasParam(_radius_x_key) && params.GetFloat(_radius_x_key) > 0.0f){
-            float value = params.GetFloat(_radius_x_key) * sin(counter) + obj_params.GetFloat(_start_pos_x_key);
+            float reverser = 1;
             if(params.HasParam(_reverse_x_key) && params.GetString(_reverse_x_key) == "1"){
-                value *= -1;
+                reverser = -1;
             }
-            pos.x = value;
+            pos.x = params.GetFloat(_radius_x_key) * sin(reverser * counter) + obj_params.GetFloat(_start_pos_x_key);
         }
 
         if(params.HasParam(_radius_y_key) && params.GetFloat(_radius_y_key) > 0.0f){
-            float value = params.GetFloat(_radius_y_key) * sin(counter) + obj_params.GetFloat(_start_pos_y_key);
+            float reverser = 1;
             if(params.HasParam(_reverse_y_key) && params.GetString(_reverse_y_key) == "1"){
-                value *= -1;
+                reverser = -1;
             }
-            pos.y = value;
+            pos.y = params.GetFloat(_radius_y_key) * sin(reverser * counter) + obj_params.GetFloat(_start_pos_y_key);
         }
 
         if(params.HasParam(_radius_z_key) && params.GetFloat(_radius_z_key) > 0.0f){
-            float value = params.GetFloat(_radius_z_key) * cos(counter) + obj_params.GetFloat(_start_pos_z_key);
+            float reverser = 1;
             if(params.HasParam(_reverse_z_key) && params.GetString(_reverse_z_key) == "1"){
-                value *= -1;
+                reverser = -1;
             }
-            pos.z = value;
+            pos.z = params.GetFloat(_radius_z_key) * cos(reverser * counter) + obj_params.GetFloat(_start_pos_z_key);
         }
 
         obj.SetTranslation(pos);
