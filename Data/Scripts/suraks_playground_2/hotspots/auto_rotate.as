@@ -1,13 +1,11 @@
 #include "object_locator/object_locator.as"
 #include "timed_execution/timed_execution.as"
-#include "timed_execution/after_init_job.as"
 #include "timed_execution/repeating_delayed_job.as"
 
-const float MPI = 3.14159265359;
+const float MPI = atan(1) * 4.0f;
 const string _name_key = "Object name to rotate";
 const string _target_name_key = "Name";
 const string _default_name = "Unknown";
-const string _default_rotation_key = "Default rotation";
 const string _repeat_time_key = "Repeat time";
 const float _default_repeat_time = 0.01f;
 const string _round_increment_x_key = "Round increment X";

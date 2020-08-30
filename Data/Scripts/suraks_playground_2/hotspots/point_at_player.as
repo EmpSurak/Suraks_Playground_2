@@ -3,7 +3,7 @@
 #include "timed_execution/after_init_job.as"
 #include "timed_execution/simple_delayed_job.as"
 
-const float MPI = 3.14159265359;
+const float MPI = atan(1) * 4.0f;
 const string _name_key = "Object name to rotate";
 const string _target_name_key = "Name";
 const string _default_name = "Unknown";
