@@ -27,6 +27,7 @@ string search_for_name;
 ObjectLocator locator;
 TimedExecution timer;
 
+// FIXME: approach does not allow multiple circle hotspots at the same time for one object
 float counter = 0.0f;
 
 void Init(){}
@@ -36,11 +37,11 @@ void SetParameters(){
     params.AddString(_repeat_time_key, formatFloat(_default_repeat_time, '0', 2, 2));
     params.AddString(_radius_x_key, formatFloat(_default_radius_x, '0', 2, 2));
     params.AddString(_radius_y_key, formatFloat(_default_radius_y, '0', 2, 2));
-	params.AddString(_radius_z_key, formatFloat(_default_radius_z, '0', 2, 2));
-	params.AddString(_round_increment_key, formatFloat(_default_round_increment, '0', 2, 2));
+    params.AddString(_radius_z_key, formatFloat(_default_radius_z, '0', 2, 2));
+    params.AddString(_round_increment_key, formatFloat(_default_round_increment, '0', 2, 2));
     params.AddString(_reverse_x_key, "0");
     params.AddString(_reverse_y_key, "0");
-	params.AddString(_reverse_z_key, "0");
+    params.AddString(_reverse_z_key, "0");
 
     // Has to be global for the anonymous function.
     search_for_name = params.GetString(_name_key);
@@ -73,45 +74,45 @@ void CircleObjects(){
     array<Object@> objects = GetObjects();
     for(uint i=0; i < objects.length(); ++i){
         Object @obj = objects[i];
-		ScriptParams@ obj_params = obj.GetScriptParams();
+        ScriptParams@ obj_params = obj.GetScriptParams();
 
-		vec3 pos = obj.GetTranslation();
-		obj_params.AddFloat(_start_pos_x_key, pos.x);
+        vec3 pos = obj.GetTranslation();
+        obj_params.AddFloat(_start_pos_x_key, pos.x);
         obj_params.AddFloat(_start_pos_y_key, pos.y);
         obj_params.AddFloat(_start_pos_z_key, pos.z);
 
-		if(params.HasParam(_round_increment_key) && params.GetFloat(_round_increment_key) > 0.0f){
-			counter += params.GetFloat(_round_increment_key);
-		} else {
-			break;
-		}
+        if(params.HasParam(_round_increment_key) && params.GetFloat(_round_increment_key) > 0.0f){
+            counter += params.GetFloat(_round_increment_key);
+        } else {
+            break;
+        }
 
-		if(params.HasParam(_radius_x_key) && params.GetFloat(_radius_x_key) > 0.0f){
-			float value = params.GetFloat(_radius_x_key) * sin(counter) + obj_params.GetFloat(_start_pos_x_key);
-			if(params.HasParam(_reverse_x_key) && params.GetString(_reverse_x_key) == "1"){
+        if(params.HasParam(_radius_x_key) && params.GetFloat(_radius_x_key) > 0.0f){
+            float value = params.GetFloat(_radius_x_key) * sin(counter) + obj_params.GetFloat(_start_pos_x_key);
+            if(params.HasParam(_reverse_x_key) && params.GetString(_reverse_x_key) == "1"){
                 value *= -1;
             }
-			pos.x = value;
-		}
+            pos.x = value;
+        }
 
-		if(params.HasParam(_radius_y_key) && params.GetFloat(_radius_y_key) > 0.0f){
-			float value = params.GetFloat(_radius_y_key) * sin(counter) + obj_params.GetFloat(_start_pos_y_key);
-			if(params.HasParam(_reverse_y_key) && params.GetString(_reverse_y_key) == "1"){
+        if(params.HasParam(_radius_y_key) && params.GetFloat(_radius_y_key) > 0.0f){
+            float value = params.GetFloat(_radius_y_key) * sin(counter) + obj_params.GetFloat(_start_pos_y_key);
+            if(params.HasParam(_reverse_y_key) && params.GetString(_reverse_y_key) == "1"){
                 value *= -1;
             }
-			pos.y = value;
-		}
+            pos.y = value;
+        }
 
-		if(params.HasParam(_radius_z_key) && params.GetFloat(_radius_z_key) > 0.0f){
-			float value = params.GetFloat(_radius_z_key) * cos(counter) + obj_params.GetFloat(_start_pos_z_key);
-			if(params.HasParam(_reverse_z_key) && params.GetString(_reverse_z_key) == "1"){
+        if(params.HasParam(_radius_z_key) && params.GetFloat(_radius_z_key) > 0.0f){
+            float value = params.GetFloat(_radius_z_key) * cos(counter) + obj_params.GetFloat(_start_pos_z_key);
+            if(params.HasParam(_reverse_z_key) && params.GetString(_reverse_z_key) == "1"){
                 value *= -1;
             }
-			pos.z = value;
-		}
+            pos.z = value;
+        }
 
-		obj.SetTranslation(pos);
-	}
+        obj.SetTranslation(pos);
+    }
 }
 
 array<Object@> GetObjects(){
