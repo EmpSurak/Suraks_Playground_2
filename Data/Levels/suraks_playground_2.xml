@@ -570,7 +570,7 @@
     <EnvObject t0="-1.84402e-005" t1="32.4999" t2="31.0002" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="96" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/room.xml">
         <parameters />
     </EnvObject>
-    <Hotspot t0="0" t1="34.2939" t2="31.0937" s0="1.5" s1="2.14695" s2="1.54685" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="97" type_file="Data/Objects/Hotspots/suraks_playground_2/announcer.xml">
+    <Hotspot t0="-1.88351e-005" t1="34" t2="31" s0="1.5" s1="2.1" s2="1.5" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="97" type_file="Data/Objects/Hotspots/suraks_playground_2/announcer.xml">
         <parameters>
             <parameter name="Announcement name" type="string" val="save_point" />
         </parameters>
@@ -674,16 +674,9 @@
         <Connections />
         <ConnectionsFrom />
     </Hotspot>
-    <Hotspot t0="0" t1="32" t2="15" s0="4" s1="1" s2="4" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="108" type_file="Data/Objects/Hotspots/suraks_playground_2/displaytext.xml">
+    <Hotspot t0="0" t1="31" t2="31" s0="1.5" s1="1" s2="1.5" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="109" type_file="Data/Objects/Hotspots/suraks_playground_2/displaytext.xml">
         <parameters>
-            <parameter name="Display Text" type="string" val="RELATIVE ROTATION - You did it! Continue on the safe house." />
-        </parameters>
-        <Connections />
-        <ConnectionsFrom />
-    </Hotspot>
-    <Hotspot t0="0" t1="32" t2="52" s0="4" s1="1" s2="4" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="109" type_file="Data/Objects/Hotspots/suraks_playground_2/displaytext.xml">
-        <parameters>
-            <parameter name="Display Text" type="string" val="AUTO ROTATION - You did it! Continue on the safe house." />
+            <parameter name="Display Text" type="string" val="Safe House: Die to respawn here!" />
         </parameters>
         <Connections />
         <ConnectionsFrom />
@@ -783,7 +776,7 @@
         <Connections />
         <ConnectionsFrom />
     </Hotspot>
-    <CameraObject t0="-73.2784" t1="69.5062" t2="52.6105" s0="1" s1="1" s2="1" q0="0.212973" q1="0.402542" q2="-0.0968708" q3="0.884997" euler_x="0.472315" euler_y="0.853761" euler_z="0" id="888">
+    <CameraObject t0="-84.0254" t1="73.8145" t2="38.8749" s0="1" s1="1" s2="1" q0="0.232544" q1="0.606016" q2="-0.191416" q3="0.736225" euler_x="0.611887" euler_y="1.37738" euler_z="0" id="888">
         <parameters />
     </CameraObject>
 </ActorObjects>
