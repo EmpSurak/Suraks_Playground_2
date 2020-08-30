@@ -14,6 +14,7 @@
 
     <Tag>Script</Tag>
     <Tag>Level</Tag>
+    <Tag>Parkour</Tag>
 
     <SupportedVersion>*</SupportedVersion>
     <NeedsRestart>false</NeedsRestart>
