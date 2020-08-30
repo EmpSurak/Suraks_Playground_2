@@ -42,7 +42,7 @@
     <RayToSun r0="0.364252" r1="0.761459" r2="-0.536192" />
 </Sky>
 <ActorObjects>
-    <EnvObject t0="4" t1="25" t2="15" s0="1" s1="1" s2="1" q0="0" q1="-0.683064" q2="0" q3="-0.730359" euler_x="0" euler_y="1.5039" euler_z="0" id="1" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/halfpipe.xml">
+    <EnvObject t0="4" t1="25" t2="15" s0="1" s1="1" s2="1" q0="0" q1="-0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="-1.5708" euler_z="3.14159" id="1" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/halfpipe.xml">
         <parameters>
             <parameter name="Default rotation W" type="float" val="0.707107" />
             <parameter name="Default rotation X" type="float" val="0" />
@@ -141,7 +141,7 @@
     <EnvObject t0="-33.2505" t1="-3.8147e-006" t2="-70.8159" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="10" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/wave.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-2.99999" t1="1.25" t2="2" s0="1.5645" s1="1.5645" s2="1.5645" q0="0" q1="-0.747275" q2="0" q3="0.664514" euler_x="3.14159" euler_y="-1.45368" euler_z="3.14159" id="11" color_r="1" color_g="0.869047" color_b="0" overbright="15.05" type_file="Data/Objects/therium/rabbit_statue/rabbit_statue_1.xml">
+    <EnvObject t0="-2.99999" t1="1.25" t2="2" s0="1.5645" s1="1.5645" s2="1.5645" q0="0" q1="-0.413329" q2="0" q3="0.910582" euler_x="0" euler_y="-0.852214" euler_z="0" id="11" color_r="1" color_g="0.869047" color_b="0" overbright="15.05" type_file="Data/Objects/therium/rabbit_statue/rabbit_statue_1.xml">
         <parameters>
             <parameter name="Default rotation W" type="float" val="0.664514" />
             <parameter name="Default rotation X" type="float" val="0" />
@@ -213,7 +213,7 @@
             </EnvObject>
         </Group>
     </Group>
-    <EnvObject t0="-2.99999" t1="1.25" t2="-1.5" s0="1.5645" s1="1.5645" s2="1.5645" q0="0" q1="-0.675317" q2="0" q3="0.737527" euler_x="0" euler_y="-1.48278" euler_z="0" id="33" color_r="1" color_g="0.869047" color_b="0" overbright="15.05" type_file="Data/Objects/therium/rabbit_statue/rabbit_statue_1.xml">
+    <EnvObject t0="-2.99999" t1="1.25" t2="-1.5" s0="1.5645" s1="1.5645" s2="1.5645" q0="0" q1="-0.375886" q2="0" q3="0.926666" euler_x="0" euler_y="-0.770705" euler_z="0" id="33" color_r="1" color_g="0.869047" color_b="0" overbright="15.05" type_file="Data/Objects/therium/rabbit_statue/rabbit_statue_1.xml">
         <parameters>
             <parameter name="Default rotation W" type="float" val="0.737527" />
             <parameter name="Default rotation X" type="float" val="0" />
@@ -250,7 +250,7 @@
             <parameter name="Name" type="string" val="Rotating Half Pipe Level 1" />
         </parameters>
     </EnvObject>
-    <Hotspot t0="0.5" t1="0.376237" t2="0" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="37" type_file="Data/Objects/Hotspots/displaytext.xml">
+    <Hotspot t0="0.5" t1="0.376237" t2="0" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="37" type_file="Data/Objects/Hotspots/suraks_playground_2/displaytext.xml">
         <parameters>
             <parameter name="Display Text" type="string" val="RELATIVE ROTATION - Try to get to the top! The trick is to jump early enough." />
         </parameters>
@@ -291,7 +291,7 @@
     <Decal t0="0.2" t1="0" t2="12" s0="0.5" s1="0.5" s2="0.5" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="46" type_file="Data/Objects/Decals/footprints/rabbit_dirt_footprint.xml" color_r="1" color_g="1" color_b="1" overbright="0">
         <parameters />
     </Decal>
-    <EnvObject t0="-0.10001" t1="55" t2="31" s0="2" s1="2" s2="2" q0="-0.393904" q1="-0.870513" q2="-0.148925" q3="0.256195" euler_x="3.07214" euler_y="-0.598455" euler_z="2.31385" id="47" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/armormetal/torus.xml">
+    <EnvObject t0="-0.10001" t1="55" t2="31" s0="2" s1="2" s2="2" q0="-0.707107" q1="0" q2="0" q3="0.707107" euler_x="-1.5708" euler_y="0" euler_z="0" id="47" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/armormetal/torus.xml">
         <parameters>
             <parameter name="Name" type="string" val="Angel 2" />
         </parameters>
@@ -426,7 +426,7 @@
             <parameter name="Name" type="string" val="Guard Statue Green" />
         </parameters>
     </EnvObject>
-    <Hotspot t0="0.5" t1="0.376237" t2="40" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="77" type_file="Data/Objects/Hotspots/displaytext.xml">
+    <Hotspot t0="0.5" t1="0.376237" t2="40" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="77" type_file="Data/Objects/Hotspots/suraks_playground_2/displaytext.xml">
         <parameters>
             <parameter name="Display Text" type="string" val="AUTO ROTATION - Try to get to the top! Preparation is key." />
         </parameters>
@@ -580,11 +580,11 @@
             <parameters />
         </EnvObject>
     </Group>
-    <EnvObject t0="-1.53151" t1="41.4685" t2="45.9216" s0="1" s1="0.5" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="99" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/cylinder.xml">
+    <EnvObject t0="8.72474" t1="43.7247" t2="18.7984" s0="1" s1="0.5" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="99" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/cylinder.xml">
         <parameters>
             <parameter name="Name" type="string" val="Circle Point Save 1" />
             <parameter name="Start Position X" type="float" val="0" />
-            <parameter name="Start Position Y" type="float" val="43" />
+            <parameter name="Start Position Y" type="float" val="35" />
             <parameter name="Start Position Z" type="float" val="31" />
         </parameters>
     </EnvObject>
@@ -618,7 +618,7 @@
         <Connections />
         <ConnectionsFrom />
     </Hotspot>
-    <EnvObject t0="2.32742" t1="35.4655" t2="55.8914" s0="5" s1="5" s2="5" q0="0.739499" q1="-0.16723" q2="-0.644356" q3="0.106149" euler_x="1.9528" euler_y="1.16175" euler_z="-1.28307" id="102" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/armormetal/cone.xml">
+    <EnvObject t0="-14.5412" t1="32.0918" t2="10.664" s0="5" s1="5" s2="5" q0="-0.12048" q1="0.209965" q2="0.969834" q3="-0.0462494" euler_x="0.442595" euler_y="0.215944" euler_z="-2.99785" id="102" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/armormetal/cone.xml">
         <parameters>
             <parameter name="Name" type="string" val="Circle Point Save 2" />
             <parameter name="Start Position X" type="float" val="0" />
@@ -641,7 +641,7 @@
         <Connections />
         <ConnectionsFrom />
     </Hotspot>
-    <EnvObject t0="12.4274" t1="44.4655" t2="51.3914" s0="2" s1="2" s2="2" q0="0.739499" q1="-0.16723" q2="-0.644356" q3="0.106149" euler_x="1.9528" euler_y="1.16175" euler_z="-1.28307" id="104" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/armormetal/cone.xml">
+    <EnvObject t0="-4.44123" t1="41.0918" t2="6.16401" s0="2" s1="2" s2="2" q0="-0.12048" q1="0.209965" q2="0.969834" q3="-0.0462494" euler_x="0.442595" euler_y="0.215944" euler_z="-2.99785" id="104" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/armormetal/cone.xml">
         <parameters>
             <parameter name="Name" type="string" val="Circle Point Save 2" />
             <parameter name="Start Position X" type="float" val="10.1" />
@@ -649,7 +649,7 @@
             <parameter name="Start Position Z" type="float" val="26.5" />
         </parameters>
     </EnvObject>
-    <EnvObject t0="2.32742" t1="43.9655" t2="70.8914" s0="4" s1="4" s2="4" q0="0.739499" q1="-0.16723" q2="-0.644356" q3="0.106149" euler_x="1.9528" euler_y="1.16175" euler_z="-1.28307" id="105" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/armormetal/cone.xml">
+    <EnvObject t0="-14.5412" t1="40.5918" t2="25.664" s0="4" s1="4" s2="4" q0="-0.12048" q1="0.209965" q2="0.969834" q3="-0.0462494" euler_x="0.442595" euler_y="0.215944" euler_z="-2.99785" id="105" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/armormetal/cone.xml">
         <parameters>
             <parameter name="Name" type="string" val="Circle Point Save 2" />
             <parameter name="Start Position X" type="float" val="0" />
@@ -657,7 +657,7 @@
             <parameter name="Start Position Z" type="float" val="46" />
         </parameters>
     </EnvObject>
-    <EnvObject t0="-10.6726" t1="43.9655" t2="39.8914" s0="4" s1="4" s2="4" q0="-0.105623" q1="0.644834" q2="-0.16782" q3="0.740171" euler_x="-1.19736" euler_y="1.16585" euler_z="-1.28733" id="106" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/armormetal/cone.xml">
+    <EnvObject t0="-27.5412" t1="40.5918" t2="-5.33599" s0="4" s1="4" s2="4" q0="0.0461132" q1="-0.970523" q2="0.210891" q3="-0.120565" euler_x="-2.6994" euler_y="0.216253" euler_z="-2.99829" id="106" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/armormetal/cone.xml">
         <parameters>
             <parameter name="Name" type="string" val="Circle Point Save 2" />
             <parameter name="Start Position X" type="float" val="-13" />
@@ -677,21 +677,21 @@
         <Connections />
         <ConnectionsFrom />
     </Hotspot>
-    <Hotspot t0="0" t1="32" t2="15" s0="4" s1="1" s2="4" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="108" type_file="Data/Objects/Hotspots/displaytext.xml">
+    <Hotspot t0="0" t1="32" t2="15" s0="4" s1="1" s2="4" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="108" type_file="Data/Objects/Hotspots/suraks_playground_2/displaytext.xml">
         <parameters>
             <parameter name="Display Text" type="string" val="RELATIVE ROTATION - You did it! Continue on the safe house." />
         </parameters>
         <Connections />
         <ConnectionsFrom />
     </Hotspot>
-    <Hotspot t0="0" t1="32" t2="52" s0="4" s1="1" s2="4" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="109" type_file="Data/Objects/Hotspots/displaytext.xml">
+    <Hotspot t0="0" t1="32" t2="52" s0="4" s1="1" s2="4" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="109" type_file="Data/Objects/Hotspots/suraks_playground_2/displaytext.xml">
         <parameters>
             <parameter name="Display Text" type="string" val="AUTO ROTATION - You did it! Continue on the safe house." />
         </parameters>
         <Connections />
         <ConnectionsFrom />
     </Hotspot>
-    <EnvObject t0="-0.00104761" t1="55" t2="31" s0="2.5" s1="2.5" s2="2.5" q0="-0.144467" q1="-0.220657" q2="-0.689624" q3="0.675048" euler_x="0.126283" euler_y="-0.520327" euler_z="-1.62671" id="110" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/armormetal/torus.xml">
+    <EnvObject t0="-0.00104761" t1="55" t2="31" s0="2.5" s1="2.5" s2="2.5" q0="0" q1="0" q2="-0.707107" q3="0.707107" euler_x="0" euler_y="0" euler_z="-1.5708" id="110" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/armormetal/torus.xml">
         <parameters>
             <parameter name="Name" type="string" val="Angel 1" />
         </parameters>
@@ -708,7 +708,7 @@
         <Connections />
         <ConnectionsFrom />
     </Hotspot>
-    <EnvObject t0="8.96454e-005" t1="55.0024" t2="31.0006" s0="3" s1="3" s2="3" q0="0.064832" q1="0.342204" q2="-0.224231" q3="0.90992" euler_x="-0.0468137" euler_y="0.709997" euler_z="-0.500318" id="114" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/armormetal/torus.xml">
+    <EnvObject t0="8.96454e-005" t1="55.0024" t2="31.0006" s0="3" s1="3" s2="3" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="114" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/armormetal/torus.xml">
         <parameters>
             <parameter name="Name" type="string" val="Angel 3" />
         </parameters>
@@ -725,14 +725,14 @@
         <Connections />
         <ConnectionsFrom />
     </Hotspot>
-    <Hotspot t0="0" t1="39.5" t2="31" s0="2.5" s1="1" s2="2.5" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="116" type_file="Data/Objects/Hotspots/displaytext.xml">
+    <Hotspot t0="0" t1="39.5" t2="31" s0="2.5" s1="1" s2="2.5" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="116" type_file="Data/Objects/Hotspots/suraks_playground_2/displaytext.xml">
         <parameters>
             <parameter name="Display Text" type="string" val="To be continued!" />
         </parameters>
         <Connections />
         <ConnectionsFrom />
     </Hotspot>
-    <CameraObject t0="-42.9369" t1="7.22763" t2="23.7054" s0="1" s1="1" s2="1" q0="-0.178511" q1="-0.64307" q2="0.157725" q3="-0.727817" euler_x="0.481043" euler_y="1.44732" euler_z="0" id="888">
+    <CameraObject t0="-49.5456" t1="43.2066" t2="19.6733" s0="1" s1="1" s2="1" q0="0.0349358" q1="0.693326" q2="-0.0336888" q3="0.718988" euler_x="0.0971036" euler_y="1.53446" euler_z="0" id="888">
         <parameters />
     </CameraObject>
 </ActorObjects>
@@ -766,6 +766,6 @@
     <SpawnerItem display_name="Armor-Metal(no DT) Cone" path="Data/Custom/FnB/Objects/Simple Shapes/armormetal/cone.xml" thumbnail_path="" />
     <SpawnerItem display_name="Armor-Metal(no DT) Torus" path="Data/Custom/FnB/Objects/Simple Shapes/armormetal/torus.xml" thumbnail_path="" />
     <SpawnerItem display_name="auto_rotate.xml" path="Data/Objects/Hotspots/suraks_playground_2/auto_rotate.xml" thumbnail_path="empty_placeholder.png" />
-    <SpawnerItem display_name="Display Text Hotspot" path="Data/Objects/Hotspots/displaytext.xml" thumbnail_path="Data/UI/spawner/thumbs/Hotspot/sign_icon.png" />
+    <SpawnerItem display_name="Display Text Hotspot" path="Data/Objects/Hotspots/suraks_playground_2/displaytext.xml" thumbnail_path="Data/UI/spawner/thumbs/Hotspot/sign_icon.png" />
     <SpawnerItem display_name="Boundary Hotspot" path="Data/Objects/Hotspots/boundary.xml" thumbnail_path="" />
 </RecentItems>
