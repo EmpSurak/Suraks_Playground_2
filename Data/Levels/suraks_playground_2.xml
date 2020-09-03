@@ -622,7 +622,7 @@
         <Connections />
         <ConnectionsFrom />
     </Hotspot>
-    <EnvObject t0="-4.56981" t1="34.086" t2="55.5788" s0="5" s1="5" s2="5" q0="-0.558052" q1="-0.148998" q2="-0.816318" q3="-0.0365463" euler_x="0.706597" euler_y="-1.12024" euler_z="2.60181" id="102" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/armormetal/cone.xml">
+    <EnvObject t0="-4.56981" t1="34.086" t2="55.5788" s0="5" s1="5" s2="5" q0="-0.558052" q1="-0.148998" q2="-0.816318" q3="-0.0365463" euler_x="0.706596" euler_y="-1.12024" euler_z="2.60181" id="102" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/armormetal/cone.xml">
         <parameters>
             <parameter name="Name" type="string" val="Circle Point Save 2" />
             <parameter name="Start Position X" type="float" val="0" />
@@ -645,7 +645,7 @@
         <Connections />
         <ConnectionsFrom />
     </Hotspot>
-    <EnvObject t0="5.53019" t1="43.086" t2="51.0788" s0="2" s1="2" s2="2" q0="-0.558052" q1="-0.148998" q2="-0.816318" q3="-0.0365463" euler_x="0.706597" euler_y="-1.12024" euler_z="2.60181" id="104" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/armormetal/cone.xml">
+    <EnvObject t0="5.53019" t1="43.086" t2="51.0788" s0="2" s1="2" s2="2" q0="-0.558052" q1="-0.148998" q2="-0.816318" q3="-0.0365463" euler_x="0.706596" euler_y="-1.12024" euler_z="2.60181" id="104" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/armormetal/cone.xml">
         <parameters>
             <parameter name="Name" type="string" val="Circle Point Save 2" />
             <parameter name="Start Position X" type="float" val="10.1" />
@@ -653,7 +653,7 @@
             <parameter name="Start Position Z" type="float" val="26.5" />
         </parameters>
     </EnvObject>
-    <EnvObject t0="-4.56981" t1="42.586" t2="70.5788" s0="4" s1="4" s2="4" q0="-0.558052" q1="-0.148998" q2="-0.816318" q3="-0.0365463" euler_x="0.706597" euler_y="-1.12024" euler_z="2.60181" id="105" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/armormetal/cone.xml">
+    <EnvObject t0="-4.56981" t1="42.586" t2="70.5788" s0="4" s1="4" s2="4" q0="-0.558052" q1="-0.148998" q2="-0.816318" q3="-0.0365463" euler_x="0.706596" euler_y="-1.12024" euler_z="2.60181" id="105" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/armormetal/cone.xml">
         <parameters>
             <parameter name="Name" type="string" val="Circle Point Save 2" />
             <parameter name="Start Position X" type="float" val="0" />
@@ -930,25 +930,25 @@
     <EnvObject t0="2.5" t1="27" t2="101" s0="0.5" s1="1" s2="0.5" q0="0" q1="0.382683" q2="0" q3="0.92388" euler_x="0" euler_y="0.785398" euler_z="0" id="161" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-3.5" t1="25.333" t2="103.5" s0="0.5" s1="1.333" s2="0.5" q0="0" q1="0.707107" q2="0" q3="0.707107" euler_x="0" euler_y="1.5708" euler_z="0" id="162" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml">
+    <EnvObject t0="-3.5" t1="27" t2="103.5" s0="0.5" s1="1" s2="0.5" q0="0" q1="0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="1.5708" euler_z="3.14159" id="162" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-9.5" t1="27" t2="101" s0="0.5" s1="1" s2="0.5" q0="0" q1="0.92388" q2="0" q3="0.382683" euler_x="0" euler_y="2.35619" euler_z="0" id="163" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml">
+    <EnvObject t0="-9.5" t1="27" t2="101" s0="0.5" s1="1" s2="0.5" q0="0" q1="0.92388" q2="0" q3="0.382683" euler_x="3.14159" euler_y="0.785398" euler_z="3.14159" id="163" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-12" t1="25.333" t2="95" s0="0.5" s1="1.333" s2="0.5" q0="0" q1="1" q2="0" q3="0" euler_x="0" euler_y="3.14159" euler_z="0" id="164" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml">
+    <EnvObject t0="-12" t1="25.333" t2="95" s0="0.5" s1="1.333" s2="0.5" q0="0" q1="1" q2="0" q3="0" euler_x="3.14159" euler_y="0" euler_z="3.14159" id="164" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-9.5" t1="27" t2="89" s0="0.5" s1="1" s2="0.5" q0="0" q1="0.92388" q2="0" q3="-0.382683" euler_x="0" euler_y="3.92699" euler_z="0" id="165" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml">
+    <EnvObject t0="-9.5" t1="27" t2="89" s0="0.5" s1="1" s2="0.5" q0="0" q1="0.92388" q2="0" q3="-0.382683" euler_x="3.14159" euler_y="-0.785398" euler_z="3.14159" id="165" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-3.5" t1="25.333" t2="86.5" s0="0.5" s1="1.333" s2="0.5" q0="0" q1="0.707107" q2="0" q3="-0.707107" euler_x="0" euler_y="4.71239" euler_z="0" id="166" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml">
+    <EnvObject t0="-3.5" t1="27" t2="86.5" s0="0.5" s1="1" s2="0.5" q0="0" q1="0.707107" q2="0" q3="-0.707107" euler_x="3.14159" euler_y="-1.5708" euler_z="3.14159" id="166" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="2.5" t1="27" t2="89" s0="0.5" s1="1" s2="0.5" q0="0" q1="0.382683" q2="0" q3="-0.92388" euler_x="0" euler_y="5.49779" euler_z="0" id="167" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml">
+    <EnvObject t0="2.5" t1="27" t2="89" s0="0.5" s1="1" s2="0.5" q0="0" q1="0.382683" q2="0" q3="-0.92388" euler_x="0" euler_y="-0.785398" euler_z="0" id="167" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml">
         <parameters />
     </EnvObject>
-    <CameraObject t0="2.69398" t1="18.577" t2="94.6921" s0="1" s1="1" s2="1" q0="0.035368" q1="-0.741914" q2="0.0392574" q3="0.66841" euler_x="-3.03586" euler_y="-1.46665" euler_z="3.14159" id="888">
+    <CameraObject t0="-23.2527" t1="19.6354" t2="102.357" s0="1" s1="1" s2="1" q0="0.0909837" q1="-0.146836" q2="0.0135649" q3="0.984874" euler_x="0.184239" euler_y="-0.296002" euler_z="0" id="888">
         <parameters />
     </CameraObject>
 </ActorObjects>
