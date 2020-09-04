@@ -886,7 +886,7 @@
     <EnvObject t0="-3.4" t1="43" t2="95" s0="3.333" s1="3.333" s2="3.333" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="146" color_r="1" color_g="0.470588" color_b="0" overbright="3.234" type_file="Data/Custom/FnB/Objects/Simple Shapes/armormetal/ring.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-3.40064" t1="31.9992" t2="95.0007" s0="3.333" s1="3.333" s2="3.333" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="147" color_r="1" color_g="0.470588" color_b="0" overbright="3.483" type_file="Data/Custom/FnB/Objects/Simple Shapes/armormetal/ring.xml">
+    <EnvObject t0="-3.4" t1="32" t2="95" s0="3.333" s1="3.333" s2="3.333" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="147" color_r="1" color_g="0.470588" color_b="0" overbright="3.483" type_file="Data/Custom/FnB/Objects/Simple Shapes/armormetal/ring.xml">
         <parameters />
     </EnvObject>
     <EnvObject t0="-3.4" t1="52" t2="95" s0="3.333" s1="3.333" s2="3.333" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="148" color_r="1" color_g="0.470588" color_b="0" overbright="3.234" type_file="Data/Custom/FnB/Objects/Simple Shapes/armormetal/ring.xml">
@@ -1005,16 +1005,13 @@
     <EnvObject t0="-13" t1="47" t2="104.5" s0="0.5" s1="1" s2="0.5" q0="0" q1="0.92388" q2="0" q3="0.382683" euler_x="3.14159" euler_y="0.785398" euler_z="3.14159" id="183" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-3.4" t1="40" t2="95" s0="4.62195" s1="15" s2="4.622" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="187" color_r="1" color_g="0.235294" color_b="0" overbright="9.95" type_file="Data/Custom/FnB/Objects/Simple Shapes/armormetal/ring.xml">
+    <EnvObject t0="-3.39812" t1="39.9951" t2="94.9996" s0="4.62195" s1="15" s2="4.622" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="187" color_r="1" color_g="0.235294" color_b="0" overbright="9.95" type_file="Data/Custom/FnB/Objects/Simple Shapes/armormetal/ring.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-3.39852" t1="54.5252" t2="95.0116" s0="4.7" s1="15" s2="4.7" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="188" color_r="1" color_g="0.235294" color_b="0" overbright="9.95" type_file="Data/Custom/FnB/Objects/Simple Shapes/armormetal/ring.xml">
+    <EnvObject t0="-3.39852" t1="60" t2="95.0116" s0="4.7" s1="24.5" s2="4.7" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="188" color_r="1" color_g="0.235294" color_b="0" overbright="9.95" type_file="Data/Custom/FnB/Objects/Simple Shapes/armormetal/ring.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-3.4" t1="68.5" t2="95" s0="4.8" s1="15" s2="4.8" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="189" color_r="1" color_g="0.235294" color_b="0" overbright="9.95" type_file="Data/Custom/FnB/Objects/Simple Shapes/armormetal/ring.xml">
-        <parameters />
-    </EnvObject>
-    <CameraObject t0="29.4926" t1="89.7227" t2="111.024" s0="1" s1="1" s2="1" q0="-0.197306" q1="0.726714" q2="-0.233013" q3="-0.615355" euler_x="-2.52103" euler_y="-1.40522" euler_z="3.14159" id="888">
+    <CameraObject t0="38.8105" t1="89.2445" t2="88.1925" s0="1" s1="1" s2="1" q0="0.311144" q1="-0.505748" q2="0.202046" q3="0.778836" euler_x="0.760149" euler_y="-1.15186" euler_z="0" id="888">
         <parameters />
     </CameraObject>
 </ActorObjects>
