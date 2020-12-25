@@ -5,6 +5,7 @@ funcdef void ON_STOP_CALLBACK(MovementObject@);
 class OnStopJob : BasicJobInterface {
     protected int char_id;
     protected ON_STOP_CALLBACK @callback;
+    protected vec3 last_pos;
 
     OnStopJob(){}
 
@@ -26,7 +27,13 @@ class OnStopJob : BasicJobInterface {
             return true;
         }
         MovementObject@ char = ReadCharacterID(char_id);
-        return char.velocity.x <= 0.0f && char.velocity.y <= 0.0f && char.velocity.z <= 0.0f;
+
+        if(last_pos == char.position){
+            return true;
+        }else{
+            last_pos = char.position;
+            return false;
+        }
     }
 
     bool IsRepeating(){

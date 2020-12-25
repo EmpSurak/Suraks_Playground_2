@@ -64,10 +64,8 @@ void HandleEvent(string event, MovementObject @mo){
                     obj_rigged.skeleton().GetCenterOfMass()
                 );
 
-                timer.Add(DelayedCharJob(1.0f, projectile_char.GetID(), function(projectile_char){
-                    timer.Add(OnStopJob(projectile_char.GetID(), function(projectile_char){
-                        QueueDeleteObjectID(projectile_char.GetID());
-                    }));
+                timer.Add(OnStopJob(projectile_char.GetID(), function(projectile_char){
+                    QueueDeleteObjectID(projectile_char.GetID());
                 }));
             }));
         }));
