@@ -13,7 +13,9 @@ class CharDeathEventJob : LevelEventJob {
 
     void ExecuteEvent(array<string> _props){
         MovementObject @char = ReadCharacterID(atoi(_props[2]));
-        sp_callback(char);
+        if(char.controlled){
+            sp_callback(char);
+        }
     }
 
     bool IsEvent(array<string> _event){

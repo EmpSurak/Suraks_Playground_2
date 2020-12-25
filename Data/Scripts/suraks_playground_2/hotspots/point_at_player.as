@@ -34,6 +34,9 @@ void SetParameters(){
 }
 
 void HandleEvent(string event, MovementObject @mo){
+    if(!mo.controlled){
+        return;
+    }
     if(event == "exit"){
         if(!params.HasParam(_no_reset_key)){
             float reset_time = 0.0f;
@@ -123,4 +126,12 @@ array<Object@> GetDefaultlessObjects(){
         }
         return !_params.HasParam(_default_rotation_key + " X");
     });
+}
+
+void PreScriptReload(){
+    timer.DeleteAll();
+}
+
+void PostScriptReload(){
+    Init();
 }

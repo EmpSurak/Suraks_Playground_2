@@ -48,6 +48,9 @@ void SetParameters(){
 }
 
 void HandleEvent(string event, MovementObject @mo){
+    if(!mo.controlled){
+        return;
+    }
     if(event == "enter"){
         float repeat_time = _default_repeat_time;
         if(params.HasParam(_repeat_time_key)){
@@ -121,4 +124,12 @@ array<Object@> GetObjects(){
         }
         return (search_for_name == _params.GetString(_target_name_key));
     });
+}
+
+void PreScriptReload(){
+    timer.DeleteAll();
+}
+
+void PostScriptReload(){
+    Init();
 }

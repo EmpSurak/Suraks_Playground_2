@@ -42,7 +42,7 @@
     <RayToSun r0="0.364252" r1="0.761459" r2="-0.536192" />
 </Sky>
 <ActorObjects>
-    <EnvObject t0="4" t1="25" t2="15" s0="1" s1="1" s2="1" q0="0" q1="-0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="-1.5708" euler_z="3.14159" id="1" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/halfpipe.xml">
+    <EnvObject t0="4" t1="25" t2="15" s0="1" s1="1" s2="1" q0="0" q1="-0.957196" q2="0" q3="0.28944" euler_x="3.14159" euler_y="-0.587283" euler_z="3.14159" id="1" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/halfpipe.xml">
         <parameters>
             <parameter name="Default rotation W" type="float" val="0.707107" />
             <parameter name="Default rotation X" type="float" val="0" />
@@ -106,7 +106,7 @@
         <ItemConnections />
         <Palette />
     </ActorObject>
-    <EnvObject t0="-4" t1="25" t2="15" s0="1" s1="1" s2="1" q0="0" q1="-0.698495" q2="0" q3="-0.715615" euler_x="0" euler_y="1.54659" euler_z="0" id="6" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/halfpipe.xml">
+    <EnvObject t0="-4" t1="25" t2="15" s0="1" s1="1" s2="1" q0="0" q1="-0.991214" q2="0" q3="-0.132271" euler_x="-3.14159" euler_y="0.26532" euler_z="-3.14159" id="6" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/halfpipe.xml">
         <parameters>
             <parameter name="Default rotation W" type="float" val="0.707107" />
             <parameter name="Default rotation X" type="float" val="0" />
@@ -142,7 +142,7 @@
     <EnvObject t0="-33.2505" t1="-3.8147e-006" t2="-70.8159" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="10" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/wave.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-2.99999" t1="1.25" t2="2" s0="1.5645" s1="1.5645" s2="1.5645" q0="0" q1="-0.747275" q2="0" q3="0.664514" euler_x="3.14159" euler_y="-1.45368" euler_z="3.14159" id="11" color_r="1" color_g="0.869047" color_b="0" overbright="15.05" type_file="Data/Objects/therium/rabbit_statue/rabbit_statue_1.xml">
+    <EnvObject t0="-2.99999" t1="1.25" t2="2" s0="1.5645" s1="1.5645" s2="1.5645" q0="0" q1="0.707107" q2="0" q3="-0.707107" euler_x="3.14159" euler_y="-1.5708" euler_z="3.14159" id="11" color_r="1" color_g="0.869047" color_b="0" overbright="15.05" type_file="Data/Objects/therium/rabbit_statue/rabbit_statue_1.xml">
         <parameters>
             <parameter name="Default rotation W" type="float" val="0.664514" />
             <parameter name="Default rotation X" type="float" val="0" />
@@ -214,7 +214,7 @@
             </EnvObject>
         </Group>
     </Group>
-    <EnvObject t0="-2.99999" t1="1.25" t2="-1.5" s0="1.5645" s1="1.5645" s2="1.5645" q0="0" q1="-0.675317" q2="0" q3="0.737527" euler_x="0" euler_y="-1.48278" euler_z="0" id="33" color_r="1" color_g="0.869047" color_b="0" overbright="15.05" type_file="Data/Objects/therium/rabbit_statue/rabbit_statue_1.xml">
+    <EnvObject t0="-2.99999" t1="1.25" t2="-1.5" s0="1.5645" s1="1.5645" s2="1.5645" q0="0" q1="-0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="-1.5708" euler_z="3.14159" id="33" color_r="1" color_g="0.869047" color_b="0" overbright="15.05" type_file="Data/Objects/therium/rabbit_statue/rabbit_statue_1.xml">
         <parameters>
             <parameter name="Default rotation W" type="float" val="0.737527" />
             <parameter name="Default rotation X" type="float" val="0" />
@@ -233,7 +233,7 @@
         <Connections />
         <ConnectionsFrom />
     </Hotspot>
-    <EnvObject t0="4" t1="5" t2="15" s0="1" s1="1" s2="1" q0="0" q1="-0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="-1.5708" euler_z="3.14159" id="35" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/halfpipe.xml">
+    <EnvObject t0="4" t1="5" t2="15" s0="1" s1="1" s2="1" q0="0" q1="-0.436473" q2="0" q3="0.899718" euler_x="0" euler_y="-0.903351" euler_z="0" id="35" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/halfpipe.xml">
         <parameters>
             <parameter name="Default rotation W" type="float" val="0.707107" />
             <parameter name="Default rotation X" type="float" val="0" />
@@ -242,7 +242,7 @@
             <parameter name="Name" type="string" val="Rotating Half Pipe Level 1" />
         </parameters>
     </EnvObject>
-    <EnvObject t0="-4" t1="5" t2="15" s0="1" s1="1" s2="1" q0="0" q1="0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="1.5708" euler_z="3.14159" id="36" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/halfpipe.xml">
+    <EnvObject t0="-4" t1="5" t2="15" s0="1" s1="1" s2="1" q0="0" q1="-0.159824" q2="0" q3="0.987145" euler_x="0" euler_y="-0.321025" euler_z="0" id="36" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/halfpipe.xml">
         <parameters>
             <parameter name="Default rotation W" type="float" val="0.707107" />
             <parameter name="Default rotation X" type="float" val="0" />
@@ -307,7 +307,7 @@
         <Connections />
         <ConnectionsFrom />
     </Hotspot>
-    <EnvObject t0="4" t1="15" t2="15" s0="1" s1="1" s2="1" q0="0" q1="-0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="-1.5708" euler_z="3.14159" id="49" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/halfpipe.xml">
+    <EnvObject t0="4" t1="15" t2="15" s0="1" s1="1" s2="1" q0="0" q1="-0.436473" q2="0" q3="0.899718" euler_x="0" euler_y="-0.903351" euler_z="0" id="49" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/halfpipe.xml">
         <parameters>
             <parameter name="Default rotation W" type="float" val="0.707107" />
             <parameter name="Default rotation X" type="float" val="0" />
@@ -316,7 +316,7 @@
             <parameter name="Name" type="string" val="Rotating Half Pipe Level 2" />
         </parameters>
     </EnvObject>
-    <EnvObject t0="-4" t1="15" t2="15" s0="1" s1="1" s2="1" q0="0" q1="0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="1.5708" euler_z="3.14159" id="50" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/halfpipe.xml">
+    <EnvObject t0="-4" t1="15" t2="15" s0="1" s1="1" s2="1" q0="0" q1="-0.159824" q2="0" q3="0.987145" euler_x="0" euler_y="-0.321025" euler_z="0" id="50" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/halfpipe.xml">
         <parameters>
             <parameter name="Default rotation W" type="float" val="0.707107" />
             <parameter name="Default rotation X" type="float" val="0" />
@@ -584,7 +584,7 @@
     <EnvObject t0="5" t1="5" t2="95" s0="0.5" s1="0.5" s2="0.5" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="98" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/box.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="11.3676" t1="49.7189" t2="40.7866" s0="1" s1="0.5" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="99" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/cylinder.xml">
+    <EnvObject t0="-14.9763" t1="20.0237" t2="31.8435" s0="1" s1="0.5" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="99" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/twowolves/jims_playground/Objects/cylinder.xml">
         <parameters>
             <parameter name="Name" type="string" val="Circle Point Save 1" />
             <parameter name="Start Position X" type="float" val="0" />
@@ -622,7 +622,7 @@
         <Connections />
         <ConnectionsFrom />
     </Hotspot>
-    <EnvObject t0="-4.56981" t1="34.086" t2="55.5788" s0="5" s1="5" s2="5" q0="-0.558052" q1="-0.148998" q2="-0.816318" q3="-0.0365463" euler_x="0.706596" euler_y="-1.12024" euler_z="2.60181" id="102" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/armormetal/cone.xml">
+    <EnvObject t0="23.1809" t1="39.6362" t2="21.638" s0="5" s1="5" s2="5" q0="-0.900679" q1="0.122629" q2="0.401971" q3="-0.116667" euler_x="2.69965" euler_y="0.769088" euler_z="-0.452842" id="102" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/armormetal/cone.xml">
         <parameters>
             <parameter name="Name" type="string" val="Circle Point Save 2" />
             <parameter name="Start Position X" type="float" val="0" />
@@ -645,7 +645,7 @@
         <Connections />
         <ConnectionsFrom />
     </Hotspot>
-    <EnvObject t0="5.53019" t1="43.086" t2="51.0788" s0="2" s1="2" s2="2" q0="-0.558052" q1="-0.148998" q2="-0.816318" q3="-0.0365463" euler_x="0.706596" euler_y="-1.12024" euler_z="2.60181" id="104" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/armormetal/cone.xml">
+    <EnvObject t0="33.2809" t1="48.6362" t2="17.138" s0="2" s1="2" s2="2" q0="-0.900679" q1="0.122629" q2="0.401971" q3="-0.116667" euler_x="2.69965" euler_y="0.769088" euler_z="-0.452842" id="104" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/armormetal/cone.xml">
         <parameters>
             <parameter name="Name" type="string" val="Circle Point Save 2" />
             <parameter name="Start Position X" type="float" val="10.1" />
@@ -653,7 +653,7 @@
             <parameter name="Start Position Z" type="float" val="26.5" />
         </parameters>
     </EnvObject>
-    <EnvObject t0="-4.56981" t1="42.586" t2="70.5788" s0="4" s1="4" s2="4" q0="-0.558052" q1="-0.148998" q2="-0.816318" q3="-0.0365463" euler_x="0.706596" euler_y="-1.12024" euler_z="2.60181" id="105" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/armormetal/cone.xml">
+    <EnvObject t0="23.1809" t1="48.1362" t2="36.638" s0="4" s1="4" s2="4" q0="-0.900679" q1="0.122629" q2="0.401971" q3="-0.116667" euler_x="2.69965" euler_y="0.769088" euler_z="-0.452842" id="105" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/armormetal/cone.xml">
         <parameters>
             <parameter name="Name" type="string" val="Circle Point Save 2" />
             <parameter name="Start Position X" type="float" val="0" />
@@ -661,7 +661,7 @@
             <parameter name="Start Position Z" type="float" val="46" />
         </parameters>
     </EnvObject>
-    <EnvObject t0="-17.5698" t1="42.586" t2="39.5788" s0="4" s1="4" s2="4" q0="0.0362056" q1="0.816887" q2="-0.149815" q3="-0.558631" euler_x="-2.43957" euler_y="-1.12398" euler_z="2.60343" id="106" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/armormetal/cone.xml">
+    <EnvObject t0="10.1809" t1="48.1362" t2="5.63804" s0="4" s1="4" s2="4" q0="0.115962" q1="-0.402342" q2="0.123037" q3="-0.901646" euler_x="-0.443045" euler_y="0.771212" euler_z="-0.453943" id="106" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/armormetal/cone.xml">
         <parameters>
             <parameter name="Name" type="string" val="Circle Point Save 2" />
             <parameter name="Start Position X" type="float" val="-13" />
@@ -1011,7 +1011,51 @@
     <EnvObject t0="-3.39852" t1="60" t2="95.0116" s0="4.7" s1="24.5" s2="4.7" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="188" color_r="1" color_g="0.235294" color_b="0" overbright="9.95" type_file="Data/Custom/FnB/Objects/Simple Shapes/armormetal/ring.xml">
         <parameters />
     </EnvObject>
-    <CameraObject t0="38.8105" t1="89.2445" t2="88.1925" s0="1" s1="1" s2="1" q0="0.311144" q1="-0.505748" q2="0.202046" q3="0.778836" euler_x="0.760149" euler_y="-1.15186" euler_z="0" id="888">
+    <Hotspot name="Ragdoll Shooter 1" t0="-2" t1="83" t2="24" s0="1" s1="1" s2="0.5" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="190" type_file="Data/Objects/Hotspots/suraks_playground_2/cannon.xml">
+        <parameters>
+            <parameter name="Push Force" type="float" val="75" />
+            <parameter name="Target Name" type="string" val="Ragdoll Shooter 2" />
+        </parameters>
+        <Connections />
+        <ConnectionsFrom />
+    </Hotspot>
+    <Hotspot name="Ragdoll Shooter 2" t0="-2" t1="83" t2="38" s0="1" s1="1" s2="0.5" q0="0" q1="1" q2="0" q3="0" euler_x="3.14159" euler_y="0" euler_z="3.14159" id="191" type_file="Data/Objects/Hotspots/suraks_playground_2/cannon.xml">
+        <parameters>
+            <parameter name="Push Force" type="float" val="75" />
+            <parameter name="Target Name" type="string" val="Ragdoll Shooter 1" />
+        </parameters>
+        <Connections />
+        <ConnectionsFrom />
+    </Hotspot>
+    <EnvObject t0="0" t1="80" t2="31" s0="3" s1="3" s2="5" q0="0" q1="0" q2="0.382683" q3="0.92388" euler_x="0" euler_y="0" euler_z="0.785397" id="192" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/armormetal/wedge.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="0" t1="81" t2="41" s0="3" s1="3" s2="5" q0="0" q1="0" q2="0.382683" q3="0.92388" euler_x="0" euler_y="0" euler_z="0.785397" id="193" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/armormetal/wedge.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="0" t1="81" t2="21" s0="3" s1="3" s2="5" q0="0" q1="0" q2="0.382683" q3="0.92388" euler_x="0" euler_y="0" euler_z="0.785397" id="194" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/armormetal/wedge.xml">
+        <parameters />
+    </EnvObject>
+    <Hotspot name="Ragdoll Shooter 3" t0="2" t1="83" t2="24" s0="1" s1="1" s2="0.5" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="195" type_file="Data/Objects/Hotspots/suraks_playground_2/cannon.xml">
+        <parameters>
+            <parameter name="Push Force" type="float" val="75" />
+            <parameter name="Target Name" type="string" val="Ragdoll Shooter 4" />
+        </parameters>
+        <Connections />
+        <ConnectionsFrom />
+    </Hotspot>
+    <Hotspot name="Ragdoll Shooter 4" t0="2" t1="83" t2="38" s0="1" s1="1" s2="0.5" q0="0" q1="1" q2="0" q3="0" euler_x="3.14159" euler_y="0" euler_z="3.14159" id="196" type_file="Data/Objects/Hotspots/suraks_playground_2/cannon.xml">
+        <parameters>
+            <parameter name="Push Force" type="float" val="75" />
+            <parameter name="Target Name" type="string" val="Ragdoll Shooter 3" />
+        </parameters>
+        <Connections />
+        <ConnectionsFrom />
+    </Hotspot>
+    <EnvObject t0="0" t1="87" t2="31" s0="3" s1="3" s2="5" q0="0" q1="0" q2="0.382683" q3="0.92388" euler_x="0" euler_y="0" euler_z="0.785397" id="197" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/armormetal/wedge.xml">
+        <parameters />
+    </EnvObject>
+    <CameraObject t0="-17.796" t1="98.0817" t2="28.844" s0="1" s1="1" s2="1" q0="0.203986" q1="0.677145" q2="-0.204052" q3="0.676925" euler_x="-2.55651" euler_y="1.57031" euler_z="3.14141" id="888">
         <parameters />
     </CameraObject>
 </ActorObjects>
@@ -1031,7 +1075,6 @@
     <SpawnerItem display_name="Shrine" path="Data/Objects/therium/Prefabs/shrineprefab.xml" thumbnail_path="Data/Textures/ui/t2/spawner.jpg" />
     <SpawnerItem display_name="Hooded Male Rat" path="Data/Objects/characters/rats/hooded_rat_actor.xml" thumbnail_path="Data/UI/spawner/thumbs/Character/Hooded_rat_actor.png" />
     <SpawnerItem display_name="point_at_player.xml" path="Data/Objects/Hotspots/suraks_playground_2/point_at_player.xml" thumbnail_path="empty_placeholder.png" />
-    <SpawnerItem display_name="Magma Arena Flag Red 1" path="Data/Prototypes/MagmaArena/MagmaArenaFlag_Red1.xml" thumbnail_path="" />
     <SpawnerItem display_name="Rabbit Dirt Footprint" path="Data/Objects/Decals/footprints/rabbit_dirt_footprint.xml" thumbnail_path="Data/UI/spawner/thumbs/Decal/footprints/rabbitdirtprint.png" />
     <SpawnerItem display_name="save_point_loader.xml" path="Data/Objects/Hotspots/suraks_playground_2/save_point_loader.xml" thumbnail_path="empty_placeholder.png" />
     <SpawnerItem display_name="announcer.xml" path="Data/Objects/Hotspots/suraks_playground_2/announcer.xml" thumbnail_path="empty_placeholder.png" />
@@ -1057,4 +1100,8 @@
     <SpawnerItem display_name="Room" path="Data/Custom/twowolves/jims_playground/Objects/room.xml" thumbnail_path="Data/Custom/twowolves/jims_playground/UI/spawner/thumbs/room.png" />
     <SpawnerItem display_name="Magma Arena Flag White 1" path="Data/Prototypes/MagmaArena/MagmaArenaFlag_White1.xml" thumbnail_path="" />
     <SpawnerItem display_name="Armor-Metal(no DT) Ring" path="Data/Custom/FnB/Objects/Simple Shapes/armormetal/ring.xml" thumbnail_path="" />
+    <SpawnerItem display_name="cannon.xml" path="Data/Objects/Hotspots/suraks_playground_2/cannon.xml" thumbnail_path="empty_placeholder.png" />
+    <SpawnerItem display_name="Magma Arena Flag Red 1" path="Data/Prototypes/MagmaArena/MagmaArenaFlag_Red1.xml" thumbnail_path="" />
+    <SpawnerItem display_name="Basket" path="Data/Objects/Environment/LitterLoads/Basket1.xml" thumbnail_path="Data/UI/spawner/thumbs/Object/basket.png" />
+    <SpawnerItem display_name="Armor-Metal(no DT) Wedge" path="Data/Custom/FnB/Objects/Simple Shapes/armormetal/wedge.xml" thumbnail_path="" />
 </RecentItems>

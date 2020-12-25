@@ -52,3 +52,11 @@ void Update(){
 void ReceiveMessage(string msg){
     timer.AddEvent(msg);
 }
+
+void PreScriptReload(){
+    timer.DeleteAll();
+}
+
+void PostScriptReload(){
+    Init();
+}
